@@ -1,35 +1,35 @@
-title: Your Title
+title: Hello, world! I'm David Freeman
 description: > # this means to ignore newlines until "baseurl:"
-  Your description
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "Your-Link.github.io" # the base hostname & protocol for your site
-# Build settings
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+permalink: ':title/'
+baseurl: "/flexible-jekyll" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Author Settings
+author: David Freeman # add your name
+author-img: david-freeman.jpg # add your photo
+about-author: I am a web developer focusing on front-end development. Always hungry to keep learning. # add description
+twitter: # add your Twitter handle
+facebook: # add your Facebook handle
+github: artemsheludko # add your Github handle
+linkedin: # add your Linkedin handle
+email: # add your Email address
+
+# Disqus
+discus-identifier: mr-brown # add your discus identifier
+
+# Tracker
+analytics: # Google Analytics
+
+# Build Settings
 markdown: kramdown
-
-facebook:
-  app_id: 
-
-logo: "../css/2016_style/img/icon-large.png"
-
-social: 
-  name: Your Facebook Page
-  link: "https://www.facebook.com/"
-
-google_site_verification: googleXXXXXXXXXXXXXXXX.html
-
-include: ['_2016_pages', '_2017_pages']
-
-gems:
+plugins:
   - jekyll-sitemap
-  - jekyll-seo-tag
+  - jekyll-paginate
 
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: facebook
-    url: https://www.facebook.com
-  - title: twitter
-    url: https://twitter.com
+paginate: 8
+paginate_path: "/page/:num"
 
-# Build settings
-markdown: kramdown
-permalink: pretty
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
