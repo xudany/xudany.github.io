@@ -1,8 +1,10 @@
 ---
-title:Highlight test 
+title: Highlight test 
+date: 2017-07-19
 categories:
  - Test
 tags:
+- Test
 ---
 
 This is a highlight test.
