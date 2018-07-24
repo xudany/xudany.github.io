@@ -31,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-07-18-配置nginx反向代理.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
+              <first_editor relative-caret-position="-360">
                 <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="3" />
                 <folding />
               </first_editor>
@@ -53,12 +53,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018-07-19-css图片打包后路径的问题.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="2018-07-19-css图片打包后路径的问题.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2018-07-19-css图片打包后路径的问题.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="168">
-                <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+              <first_editor relative-caret-position="384">
+                <caret line="61" column="3" lean-forward="false" selection-start-line="61" selection-start-column="3" selection-end-line="61" selection-end-column="3" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -66,7 +66,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018-07-09-xml解析路径.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2018-07-09-xml解析路径.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2018-07-09-xml解析路径.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -183,9 +183,9 @@
       <list>
         <option value="$PROJECT_DIR$/_posts/2018-07-18-配置nginx反向代理.md" />
         <option value="$PROJECT_DIR$/_posts/2018-07-10-背景图调试问题.md" />
-        <option value="$PROJECT_DIR$/_posts/2018-07-19-css图片打包后路径的问题.md" />
         <option value="$PROJECT_DIR$/_posts/2018-07-11-搜索清空回退功能以及分页功能.md" />
         <option value="$PROJECT_DIR$/_posts/2018-07-09-xml解析路径.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-07-19-css图片打包后路径的问题.md" />
       </list>
     </option>
   </component>
@@ -206,7 +206,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1912" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -286,15 +286,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1532428502208</updated>
-      <workItem from="1532428503730" duration="714000" />
+      <workItem from="1532428503730" duration="950000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="714000" />
+    <option name="totallyTimeSpent" value="950000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973656" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -427,10 +427,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-07-09-xml解析路径.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="168">
+            <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-07-18-配置nginx反向代理.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
+          <first_editor relative-caret-position="-360">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="3" />
             <folding />
           </first_editor>
@@ -441,19 +452,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-07-19-css图片打包后路径的问题.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="168">
-            <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-07-09-xml解析路径.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="168">
-            <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <first_editor relative-caret-position="384">
+            <caret line="61" column="3" lean-forward="false" selection-start-line="61" selection-start-column="3" selection-end-line="61" selection-end-column="3" />
             <folding />
           </first_editor>
           <second_editor />
