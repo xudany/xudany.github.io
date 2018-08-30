@@ -1,11 +1,16 @@
 ---
-title: 2018-08-28-自动生成Change Log的实现
+title: 自动生成Change Log的实现
 date: 2018-08-28
 categories:
-- Change Log commander inquirer node
+- Change Log 
 tags:
-- Change Log commander inquirer node
+- Change Log
+- commander 
+- inquirer 
+- node
 ---
+
+# 自动生成Change Log的实现
 
 ### 开发目的
 
