@@ -1,13 +1,16 @@
 ---
-title: 2018-08-25-Change Log小工具使用指南
-date: 2018-08-28
+title: Change Log小工具使用指南
+date: 2018-08-25
 categories:
-- Change Log commander inquirer node
+- Change Log 
 tags:
-- Change Log commander inquirer node
+- Change Log
+- commander 
+- inquirer 
+- node
 ---
 
-
+# Change Log小工具使用指南
 
 ## 安装
 
