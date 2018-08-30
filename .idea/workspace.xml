@@ -92,12 +92,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018-06-06-使用git打Tag.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="2018-06-06-使用git打Tag.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2018-06-06-使用git打Tag.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="3" />
+              <first_editor relative-caret-position="363">
+                <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -105,12 +105,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018-06-11-万分懊恼的 commit 信息手误拯救办法.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2018-06-11-万分懊恼的 commit 信息手误拯救办法.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2018-06-11-万分懊恼的 commit 信息手误拯救办法.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="168">
-                <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+              <first_editor relative-caret-position="24">
+                <caret line="1" column="28" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="28" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -170,8 +170,8 @@
         <option value="$PROJECT_DIR$/_posts/解决IE低版本兼容Vue项目的方法.md" />
         <option value="$PROJECT_DIR$/_posts/2018-08-08-解决IE低版本兼容Vue项目的方法.md" />
         <option value="$PROJECT_DIR$/_posts/2018-07-25-解决IE低版本兼容Vue项目的方法.md" />
-        <option value="$PROJECT_DIR$/_posts/2018-06-06-使用git打Tag.md" />
         <option value="$PROJECT_DIR$/_posts/2018-06-11-万分懊恼的 commit 信息手误拯救办法.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-06-06-使用git打Tag.md" />
       </list>
     </option>
   </component>
@@ -282,7 +282,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5013000" />
+    <option name="totallyTimeSpent" value="5246000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="13" width="1936" height="1096" extended-state="6" />
@@ -768,22 +768,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-06-06-使用git打Tag.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2018-06-11-万分懊恼的 commit 信息手误拯救办法.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="3" />
+          <first_editor relative-caret-position="24">
+            <caret line="1" column="28" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="28" />
             <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-06-11-万分懊恼的 commit 信息手误拯救办法.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2018-06-06-使用git打Tag.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="168">
-            <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+          <first_editor relative-caret-position="363">
+            <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
