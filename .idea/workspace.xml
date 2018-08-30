@@ -14,12 +14,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="2018-05-25-markdown自动生成HTML文件.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2018-05-25-markdown自动生成HTML文件.md">
+      <file leaf-file-name="2018-07-18-配置nginx反向代理.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-07-18-配置nginx反向代理.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="0">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="3" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -27,140 +27,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2017-11-04-test.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2017-11-04-test.md">
+      <file leaf-file-name="2018-07-11-搜索清空回退功能以及分页功能.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-07-11-搜索清空回退功能以及分页功能.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="0">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2017-09-15-自我理解——啃英文的vuetify（问题很多，有待验证）.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2017-09-15-自我理解——啃英文的vuetify（问题很多，有待验证）.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                <folding>
-                  <marker date="1535592941217" expanded="true" signature="628:679" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="798:999" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="879:966" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="903:956" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="1249:2320" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="1272:2308" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="1296:2299" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="1316:1441" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="1354:1425" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="1484:1610" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="1524:1594" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="1653:1777" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="1691:1761" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="1820:1946" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="1860:1930" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="1989:2113" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="2027:2097" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="2157:2283" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="2197:2267" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="3573:3999" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="3584:3987" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="3602:3975" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="4186:6684" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="4196:6672" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="4293:4699" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="4715:4930" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="4941:6553" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="4967:6541" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="5014:6520" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="5038:6500" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="5059:6480" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="5087:6263" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="5123:6234" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="5159:5305" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="5341:6015" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="5411:5697" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="6051:6206" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="6294:6458" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="6593:6661" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="10918:10967" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="10998:11666" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="11029:11654" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="11074:11329" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="11159:11315" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="11205:11299" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="11382:11645" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="11475:11631" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="11521:11615" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="11713:12061" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="11744:12049" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="11787:12040" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="11870:12026" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="11916:12010" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="12137:12483" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="12168:12471" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="12210:12462" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="12292:12448" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="12338:12432" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="12533:12904" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="12564:12892" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="12630:12883" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="12713:12869" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="12759:12853" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="13099:13110" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="13201:13547" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="13209:13535" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="13244:13290" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="13323:13366" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="13402:13448" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="13482:13526" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="13651:13922" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="13659:13910" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="13706:13769" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="13803:13901" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="14281:14546" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="14289:14534" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="14351:14416" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="14467:14525" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="14640:14916" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="14648:14904" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="14681:14759" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="14773:14895" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="15839:16311" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="15847:16299" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="15879:16068" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="15906:16047" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="16101:16290" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="16128:16269" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="16761:17263" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="16769:17251" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="16813:17002" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="16840:16981" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="17053:17242" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="17080:17221" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="18457:19286" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="18483:19274" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="18502:19262" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="18758:18840" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="18900:18978" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="19038:19109" ph="..." />
-                  <marker date="1535592941217" expanded="true" signature="19169:19242" ph="..." />
-                </folding>
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2018-07-09-xml解析路径.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2018-07-09-xml解析路径.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="168">
-                <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+                <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -174,19 +46,6 @@
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="144">
                 <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2018-07-18-配置nginx反向代理.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2018-07-18-配置nginx反向代理.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="3" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -224,8 +83,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2018-08-28-自动生成Change Log的实现.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="96">
-                <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="3" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -233,12 +92,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018-07-26-解决IE低版本兼容Vue项目的方法.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2018-07-26-解决IE低版本兼容Vue项目的方法.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2018-07-26-解决IE低版本兼容Vue项目的方法.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="216">
-                <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+              <first_editor relative-caret-position="-597">
+                <caret line="1" column="24" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="24" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2018-06-06-使用git打Tag.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-06-06-使用git打Tag.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="168">
+                <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017-09-11-fail to push some refs to git .md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2017-09-11-fail to push some refs to git .md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="144">
+                <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="7" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2018-07-09-xml解析路径.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-07-09-xml解析路径.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="168">
+                <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -272,6 +170,7 @@
         <option value="$PROJECT_DIR$/_posts/解决IE低版本兼容Vue项目的方法.md" />
         <option value="$PROJECT_DIR$/_posts/2018-08-08-解决IE低版本兼容Vue项目的方法.md" />
         <option value="$PROJECT_DIR$/_posts/2018-07-25-解决IE低版本兼容Vue项目的方法.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-06-06-使用git打Tag.md" />
       </list>
     </option>
   </component>
@@ -382,7 +281,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2049000" />
+    <option name="totallyTimeSpent" value="3984000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="13" width="1936" height="1096" extended-state="6" />
@@ -560,17 +459,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-07-11-搜索清空回退功能以及分页功能.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2017-07-19-highlight.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -579,17 +467,6 @@
             <folding>
               <marker date="1535597889921" expanded="true" signature="4:10" ph="title: Highlight test ...ries:" />
             </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2017-09-11-fail to push some refs to git .md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -650,50 +527,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="24">
             <caret line="1" column="7" lean-forward="false" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-07-09-xml解析路径.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="168">
-            <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-07-10-背景图调试问题.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="144">
-            <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-07-18-配置nginx反向代理.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="3" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-07-19-css图片打包后路径的问题.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="3" />
             <folding />
           </first_editor>
           <second_editor />
@@ -835,18 +668,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-08-28-自动生成Change Log的实现.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2018-08-25-Change Log小工具使用指南.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="96">
-            <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="3" />
             <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-08-25-Change Log小工具使用指南.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2018-08-28-自动生成Change Log的实现.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
@@ -860,8 +693,85 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-07-26-解决IE低版本兼容Vue项目的方法.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="216">
-            <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <first_editor relative-caret-position="-597">
+            <caret line="1" column="24" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="24" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-07-19-css图片打包后路径的问题.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-07-18-配置nginx反向代理.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-07-11-搜索清空回退功能以及分页功能.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-07-10-背景图调试问题.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="144">
+            <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-07-09-xml解析路径.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="168">
+            <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2017-09-11-fail to push some refs to git .md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="144">
+            <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="7" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-06-06-使用git打Tag.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="168">
+            <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
             <folding />
           </first_editor>
           <second_editor />
