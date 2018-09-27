@@ -17,8 +17,8 @@
       <file leaf-file-name="_config.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="552" column="14" lean-forward="false" selection-start-line="552" selection-start-column="14" selection-end-line="552" selection-end-column="14" />
+            <state relative-caret-position="387">
+              <caret line="491" column="35" lean-forward="true" selection-start-line="491" selection-start-column="35" selection-end-line="491" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -127,11 +127,6 @@
               <item name="xudany.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="xudany.github.io" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="xudany.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xudany.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="_posts" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -191,12 +186,12 @@
       <workItem from="1536212747821" duration="599000" />
       <workItem from="1537948020308" duration="2006000" />
       <workItem from="1538009218312" duration="5387000" />
-      <workItem from="1538027102595" duration="3788000" />
+      <workItem from="1538027102595" duration="4727000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21454000" />
+    <option name="totallyTimeSpent" value="22393000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="13" width="1936" height="1096" extended-state="6" />
@@ -960,8 +955,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="552" column="14" lean-forward="false" selection-start-line="552" selection-start-column="14" selection-end-line="552" selection-end-column="14" />
+        <state relative-caret-position="387">
+          <caret line="491" column="35" lean-forward="true" selection-start-line="491" selection-start-column="35" selection-end-line="491" selection-end-column="35" />
           <folding />
         </state>
       </provider>
