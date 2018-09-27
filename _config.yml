@@ -14,7 +14,7 @@ date_format: '%Y-%m-%d'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
-url:
+url: https://xudany.github.io
 baseurl:
 permalink: pretty
 
@@ -700,3 +700,15 @@ images: assets/images
 
 # Theme version
 version: 5.1.1
+
+
+# ---------------------------------------------------------------
+# SEO SETTING
+# ---------------------------------------------------------------
+#sitemap:
+#  path: sitemap.xml
+#baidusitemap:
+#  path: baidusitemap.xml
+
+gems:
+  - jekyll-sitemap
