@@ -1,6 +1,6 @@
 ---
-title： Easter egg
-data： 2017-12-25
+title: Easter egg
+data: 2017-12-25
 categories:
 - npm 
 tags:
