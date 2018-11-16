@@ -40,13 +40,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018-09-15-git reset 重置回滚版本.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2018-09-15-git reset 重置回滚版本.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2018-09-15-git reset 重置回滚版本.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="48">
-                <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="16" />
+              <first_editor relative-caret-position="240">
+                <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
                 <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2018-10-13-react-native 图片使用问题.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-10-13-react-native 图片使用问题.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="240">
+                <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+                <folding>
+                  <marker date="1542354370703" expanded="true" signature="1498:1659" ph="{...}" />
+                  <marker date="1542354370703" expanded="true" signature="1590:1622" ph="{...}" />
+                </folding>
               </first_editor>
               <second_editor />
             </state>
@@ -85,19 +101,6 @@
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="0">
                 <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2017-09-13-webpack简单学习笔记.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2017-09-13-webpack简单学习笔记.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="168">
-                <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="10" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -214,6 +217,7 @@
         <option value="$PROJECT_DIR$/_posts/Xcode报错 Build input file cannot be found Users...node_modulesreact-nativethird-partydouble-conversion-1.1.5 src.md" />
         <option value="$PROJECT_DIR$/_posts/git 获取，查看，删除，重命名远程分支.md" />
         <option value="$PROJECT_DIR$/_posts/git reset 重置回滚版本.md" />
+        <option value="$PROJECT_DIR$/_posts/react-native 图片使用问题.md" />
       </list>
     </option>
   </component>
@@ -344,12 +348,12 @@
       <workItem from="1542251998044" duration="1682000" />
       <workItem from="1542261050883" duration="2046000" />
       <workItem from="1542329708051" duration="5355000" />
-      <workItem from="1542348844707" duration="2772000" />
+      <workItem from="1542348844707" duration="5732000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64471000" />
+    <option name="totallyTimeSpent" value="67431000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -385,13 +389,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_layouts/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -777,17 +774,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-10-12-Xcode报错 Build input file cannot be found Users... node_modules react-native third-party double-conversion-1.1.5 src.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="3" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-08-25-Change Log小工具使用指南.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -835,9 +821,34 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-09-15-git reset 重置回滚版本.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="48">
-            <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="16" />
+          <first_editor relative-caret-position="240">
+            <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
             <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-10-12-Xcode报错 Build input file cannot be found Users... node_modules react-native third-party double-conversion-1.1.5 src.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-10-13-react-native 图片使用问题.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="240">
+            <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <folding>
+              <marker date="1542354370703" expanded="true" signature="1498:1659" ph="{...}" />
+              <marker date="1542354370703" expanded="true" signature="1590:1622" ph="{...}" />
+            </folding>
           </first_editor>
           <second_editor />
         </state>
