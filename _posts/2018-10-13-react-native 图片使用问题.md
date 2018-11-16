@@ -75,20 +75,9 @@ var icon = this.props.active
 
 可以在 Image 组件的 source 属性中指定一些请求参数，如下面的示例：
 
-```
-<Image
-  source={{
-    uri: "https://facebook.github.io/react/logo-og.png",
-    method: "POST",
-    headers: {
-      Pragma: "no-cache"
-    },
-    body: "Your Body goes here"
-  }}
-  style={{ width: 400, height: 400 }}
-/>
-```
+![Test](/assets/images/photo.png)
 
+ps：因为某些不明原因，只能发图？！！∑(´△｀)？！
 
 
 ## 背景图片与嵌套写法
