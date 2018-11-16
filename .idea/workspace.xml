@@ -27,22 +27,40 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_layout.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_includes/_layout.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1130">
-              <caret line="20" column="12" lean-forward="false" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="archive.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/archive.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-866">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2018-11-16-react-native踩坑记.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-11-16-react-native踩坑记.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-200">
+                <caret line="544" column="301" lean-forward="false" selection-start-line="544" selection-start-column="301" selection-end-line="544" selection-end-column="301" />
+                <folding>
+                  <marker date="1542361972774" expanded="true" signature="2056:2145" ph="..." />
+                  <marker date="1542361972774" expanded="true" signature="2185:2747" ph="{...}" />
+                  <marker date="1542361972774" expanded="true" signature="2208:2443" ph="{...}" />
+                  <marker date="1542361972774" expanded="true" signature="2321:2333" ph="{...}" />
+                  <marker date="1542361972774" expanded="true" signature="2360:2414" ph="{...}" />
+                  <marker date="1542361972774" expanded="true" signature="2455:2745" ph="{...}" />
+                  <marker date="1542361972774" expanded="true" signature="2797:2909" ph="{...}" />
+                  <marker date="1542361972774" expanded="true" signature="2810:2907" ph="{...}" />
+                  <marker date="1542361972774" expanded="true" signature="2944:3025" ph="{...}" />
+                  <marker date="1542361972774" expanded="true" signature="2957:3023" ph="{&quot;color&quot;: 'blue'...}" />
+                  <marker date="1542361972774" expanded="true" signature="3583:3643" ph="{...}" />
+                  <marker date="1542361972774" expanded="true" signature="3720:3770" ph="{...}" />
+                  <marker date="1542361972774" expanded="true" signature="4456:4537" ph="{...}" />
+                  <marker date="1542361972774" expanded="true" signature="4469:4535" ph="{&quot;color&quot;: 'blue'...}" />
+                </folding>
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -107,7 +125,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018-10-13-react-native 图片使用问题.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2018-10-13-react-native 图片使用问题.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2018-10-13-react-native 图片使用问题.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -194,6 +212,7 @@
         <option value="$PROJECT_DIR$/_posts/react-native 布局中的层级问题.md" />
         <option value="$PROJECT_DIR$/_posts/2018-10-18-react-native 布局中的层级问题.md" />
         <option value="$PROJECT_DIR$/_posts/2018-10-13-react-native 图片使用问题.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-11-16-react-native踩坑记.md" />
       </list>
     </option>
   </component>
@@ -214,7 +233,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="width" value="1920" />
     <option name="height" value="1040" />
   </component>
@@ -336,12 +355,12 @@
       <workItem from="1542251998044" duration="1682000" />
       <workItem from="1542261050883" duration="2046000" />
       <workItem from="1542329708051" duration="5355000" />
-      <workItem from="1542348844707" duration="10134000" />
+      <workItem from="1542348844707" duration="11010000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71833000" />
+    <option name="totallyTimeSpent" value="72709000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -353,8 +372,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2455216" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -364,7 +382,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2578125" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2578125" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -708,32 +726,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-11-16-react-native踩坑记.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="268">
-            <caret line="540" column="160" lean-forward="false" selection-start-line="540" selection-start-column="48" selection-end-line="540" selection-end-column="160" />
-            <folding>
-              <marker date="1542358735977" expanded="true" signature="2056:2145" ph="..." />
-              <marker date="1542358735977" expanded="true" signature="2185:2747" ph="{...}" />
-              <marker date="1542358735977" expanded="true" signature="2208:2443" ph="{...}" />
-              <marker date="1542358735977" expanded="true" signature="2321:2333" ph="{...}" />
-              <marker date="1542358735977" expanded="true" signature="2360:2414" ph="{...}" />
-              <marker date="1542358735977" expanded="true" signature="2455:2745" ph="{...}" />
-              <marker date="1542358735977" expanded="true" signature="2797:2909" ph="{...}" />
-              <marker date="1542358735977" expanded="true" signature="2810:2907" ph="{...}" />
-              <marker date="1542358735977" expanded="true" signature="2944:3025" ph="{...}" />
-              <marker date="1542358735977" expanded="true" signature="2957:3023" ph="{&quot;color&quot;: 'blue'...}" />
-              <marker date="1542358735977" expanded="true" signature="3583:3643" ph="{...}" />
-              <marker date="1542358735977" expanded="true" signature="3720:3770" ph="{...}" />
-              <marker date="1542358735977" expanded="true" signature="4456:4537" ph="{...}" />
-              <marker date="1542358735977" expanded="true" signature="4469:4535" ph="{&quot;color&quot;: 'blue'...}" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/layout.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -863,6 +855,32 @@
           <first_editor relative-caret-position="160">
             <caret line="79" column="27" lean-forward="false" selection-start-line="79" selection-start-column="27" selection-end-line="79" selection-end-column="27" />
             <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-11-16-react-native踩坑记.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-200">
+            <caret line="544" column="301" lean-forward="false" selection-start-line="544" selection-start-column="301" selection-end-line="544" selection-end-column="301" />
+            <folding>
+              <marker date="1542361972774" expanded="true" signature="2056:2145" ph="..." />
+              <marker date="1542361972774" expanded="true" signature="2185:2747" ph="{...}" />
+              <marker date="1542361972774" expanded="true" signature="2208:2443" ph="{...}" />
+              <marker date="1542361972774" expanded="true" signature="2321:2333" ph="{...}" />
+              <marker date="1542361972774" expanded="true" signature="2360:2414" ph="{...}" />
+              <marker date="1542361972774" expanded="true" signature="2455:2745" ph="{...}" />
+              <marker date="1542361972774" expanded="true" signature="2797:2909" ph="{...}" />
+              <marker date="1542361972774" expanded="true" signature="2810:2907" ph="{...}" />
+              <marker date="1542361972774" expanded="true" signature="2944:3025" ph="{...}" />
+              <marker date="1542361972774" expanded="true" signature="2957:3023" ph="{&quot;color&quot;: 'blue'...}" />
+              <marker date="1542361972774" expanded="true" signature="3583:3643" ph="{...}" />
+              <marker date="1542361972774" expanded="true" signature="3720:3770" ph="{...}" />
+              <marker date="1542361972774" expanded="true" signature="4456:4537" ph="{...}" />
+              <marker date="1542361972774" expanded="true" signature="4469:4535" ph="{&quot;color&quot;: 'blue'...}" />
+            </folding>
           </first_editor>
           <second_editor />
         </state>
