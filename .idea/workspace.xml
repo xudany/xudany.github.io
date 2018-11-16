@@ -14,12 +14,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="2018-06-11-万分懊恼的 commit 信息手误拯救办法.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2018-06-11-万分懊恼的 commit 信息手误拯救办法.md">
+      <file leaf-file-name="2018-10-12-Xcode报错 Build input file cannot be found Users... node_modules react-native third-party double-conversion-1.1.5 src.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-10-12-Xcode报错 Build input file cannot be found Users... node_modules react-native third-party double-conversion-1.1.5 src.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="576">
-                <caret line="24" column="2" lean-forward="false" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="3" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -27,8 +27,50 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018-06-06-使用git打Tag.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2018-06-06-使用git打Tag.md">
+      <file leaf-file-name="2018-09-11-git 获取，查看，删除，重命名远程分支.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-09-11-git 获取，查看，删除，重命名远程分支.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="3" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2018-09-15-git reset 重置回滚版本.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-09-15-git reset 重置回滚版本.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="240">
+                <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2018-10-13-react-native 图片使用问题.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-10-13-react-native 图片使用问题.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="240">
+                <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+                <folding>
+                  <marker date="1542354370703" expanded="true" signature="1498:1659" ph="{...}" />
+                  <marker date="1542354370703" expanded="true" signature="1590:1622" ph="{...}" />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2018-07-19-css图片打包后路径的问题.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-07-19-css图片打包后路径的问题.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="0">
@@ -40,12 +82,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018-06-24-git切换分支时常遇到的坑.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2018-06-24-git切换分支时常遇到的坑.md">
+      <file leaf-file-name="2018-07-26-解决IE低版本兼容Vue项目的方法.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-07-26-解决IE低版本兼容Vue项目的方法.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="0">
-                <caret line="0" column="3" lean-forward="true" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -53,66 +95,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2017-07-19-Not a git repository (or any of the parent directories).md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2017-07-19-Not a git repository (or any of the parent directories).md">
+      <file leaf-file-name="2018-08-25-Change Log小工具使用指南.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-08-25-Change Log小工具使用指南.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="96">
-                <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2018-10-11-react-native踩坑记.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2018-10-11-react-native踩坑记.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="328">
-                <caret line="540" column="46" lean-forward="false" selection-start-line="540" selection-start-column="46" selection-end-line="540" selection-end-column="46" />
-                <folding>
-                  <marker date="1542339942397" expanded="true" signature="2056:2145" ph="..." />
-                  <marker date="1542339942397" expanded="true" signature="2185:2747" ph="{...}" />
-                  <marker date="1542339942397" expanded="true" signature="2208:2443" ph="{...}" />
-                  <marker date="1542339942397" expanded="true" signature="2321:2333" ph="{...}" />
-                  <marker date="1542339942397" expanded="true" signature="2360:2414" ph="{...}" />
-                  <marker date="1542339942397" expanded="true" signature="2455:2745" ph="{...}" />
-                  <marker date="1542339942397" expanded="true" signature="2797:2909" ph="{...}" />
-                  <marker date="1542339942397" expanded="true" signature="2810:2907" ph="{...}" />
-                  <marker date="1542339942397" expanded="true" signature="2944:3025" ph="{...}" />
-                  <marker date="1542339942397" expanded="true" signature="2957:3023" ph="{&quot;color&quot;: 'blue'...}" />
-                  <marker date="1542339942397" expanded="true" signature="3583:3643" ph="{...}" />
-                  <marker date="1542339942397" expanded="true" signature="3720:3770" ph="{...}" />
-                  <marker date="1542339942397" expanded="true" signature="4456:4537" ph="{...}" />
-                  <marker date="1542339942397" expanded="true" signature="4469:4535" ph="{&quot;color&quot;: 'blue'...}" />
-                </folding>
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2018-07-09-xml解析路径.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2018-07-09-xml解析路径.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="216">
-                <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2017-09-13-webpack简单学习笔记.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2017-09-13-webpack简单学习笔记.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="168">
-                <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="10" />
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -133,12 +121,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018-10-12-react-native Xcode报错 'config.h' file not found.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2018-10-12-react-native Xcode报错 'config.h' file not found.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2018-10-12-react-native Xcode报错 'config.h' file not found.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="264">
-                <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="3" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -223,8 +211,13 @@
         <option value="$PROJECT_DIR$/_posts/2017-07-18-test.md" />
         <option value="$PROJECT_DIR$/_posts/2017-07-19-Not a git repository (or any of the parent directories).md" />
         <option value="$PROJECT_DIR$/_posts/react-native踩坑记.md" />
-        <option value="$PROJECT_DIR$/_posts/2018-10-11-react-native踩坑记.md" />
         <option value="$PROJECT_DIR$/_posts/React Native Xcode报错 'config.h' file not found.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-10-11-react-native踩坑记.md" />
+        <option value="$PROJECT_DIR$/_posts/Xcode%E6%8A%A5%E9%94%99%EF%BC%9Aerror%3A%20Build%20input%20file%20cannot%20be%20found%3A%20%3Athird-party%3Adouble-conversion-1.1.5%3Asrc%3A.md" />
+        <option value="$PROJECT_DIR$/_posts/Xcode报错 Build input file cannot be found Users...node_modulesreact-nativethird-partydouble-conversion-1.1.5 src.md" />
+        <option value="$PROJECT_DIR$/_posts/git 获取，查看，删除，重命名远程分支.md" />
+        <option value="$PROJECT_DIR$/_posts/git reset 重置回滚版本.md" />
+        <option value="$PROJECT_DIR$/_posts/react-native 图片使用问题.md" />
       </list>
     </option>
   </component>
@@ -264,6 +257,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -280,7 +274,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -300,13 +293,13 @@
     <property name="SearchEverywhereHistoryKey" value="index&#9;FILE&#9;file://E:/mproject/xudany.github.io/_layouts/index.html" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\mproject\xudany.github.io\_posts" />
-      <recent name="E:\mproject\xudany.github.io\assets\images\bqb" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\mproject\xudany.github.io" />
       <recent name="E:\mproject\xudany.github.io\_posts" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\mproject\xudany.github.io\_posts" />
+      <recent name="E:\mproject\xudany.github.io\assets\images\bqb" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -354,12 +347,13 @@
       <workItem from="1539824039799" duration="599000" />
       <workItem from="1542251998044" duration="1682000" />
       <workItem from="1542261050883" duration="2046000" />
-      <workItem from="1542329708051" duration="3604000" />
+      <workItem from="1542329708051" duration="5355000" />
+      <workItem from="1542348844707" duration="5732000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59948000" />
+    <option name="totallyTimeSpent" value="67431000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -369,12 +363,12 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2578125" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -395,74 +389,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/2018-07-11-搜索清空回退功能以及分页功能.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="408">
-            <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-08-25-Change Log小工具使用指南.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="240">
-            <caret line="46" column="5" lean-forward="false" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-04-26-git 本地仓库关联远程仓库.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="48">
-            <caret line="43" column="17" lean-forward="false" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/categories/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/404.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -678,7 +604,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="264">
             <caret line="11" column="10" lean-forward="false" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -689,7 +614,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="3" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -700,7 +624,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="1056">
             <caret line="44" column="3" lean-forward="false" selection-start-line="44" selection-start-column="3" selection-end-line="44" selection-end-column="3" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -711,7 +634,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="168">
             <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -722,7 +644,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -733,17 +654,28 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="576">
             <caret line="24" column="2" lean-forward="false" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/Xcode%E6%8A%A5%E9%94%99%EF%BC%9Aerror%3A%20Build%20input%20file%20cannot%20be%20found%3A%20%3Athird-party%3Adouble-conversion-1.1.5%3Asrc%3A.md" />
+    <entry file="file://$PROJECT_DIR$/_posts/2018-06-24-git切换分支时常遇到的坑.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="3" lean-forward="true" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
             <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-06-24-git切换分支时常遇到的坑.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2018-06-06-使用git打Tag.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
-            <caret line="0" column="3" lean-forward="true" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
@@ -756,6 +688,32 @@
           <first_editor relative-caret-position="96">
             <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
             <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-10-11-react-native踩坑记.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="12960">
+            <caret line="540" column="160" lean-forward="false" selection-start-line="540" selection-start-column="160" selection-end-line="540" selection-end-column="160" />
+            <folding>
+              <marker date="1542340482291" expanded="true" signature="2056:2145" ph="..." />
+              <marker date="1542340482291" expanded="true" signature="2185:2747" ph="{...}" />
+              <marker date="1542340482291" expanded="true" signature="2208:2443" ph="{...}" />
+              <marker date="1542340482291" expanded="true" signature="2321:2333" ph="{...}" />
+              <marker date="1542340482291" expanded="true" signature="2360:2414" ph="{...}" />
+              <marker date="1542340482291" expanded="true" signature="2455:2745" ph="{...}" />
+              <marker date="1542340482291" expanded="true" signature="2797:2909" ph="{...}" />
+              <marker date="1542340482291" expanded="true" signature="2810:2907" ph="{...}" />
+              <marker date="1542340482291" expanded="true" signature="2944:3025" ph="{...}" />
+              <marker date="1542340482291" expanded="true" signature="2957:3023" ph="{&quot;color&quot;: 'blue'...}" />
+              <marker date="1542340482291" expanded="true" signature="3583:3643" ph="{...}" />
+              <marker date="1542340482291" expanded="true" signature="3720:3770" ph="{...}" />
+              <marker date="1542340482291" expanded="true" signature="4456:4537" ph="{...}" />
+              <marker date="1542340482291" expanded="true" signature="4469:4535" ph="{&quot;color&quot;: 'blue'...}" />
+            </folding>
           </first_editor>
           <second_editor />
         </state>
@@ -794,37 +752,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-10-11-react-native踩坑记.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="328">
-            <caret line="540" column="46" lean-forward="false" selection-start-line="540" selection-start-column="46" selection-end-line="540" selection-end-column="46" />
-            <folding>
-              <marker date="1542339942397" expanded="true" signature="2056:2145" ph="..." />
-              <marker date="1542339942397" expanded="true" signature="2185:2747" ph="{...}" />
-              <marker date="1542339942397" expanded="true" signature="2208:2443" ph="{...}" />
-              <marker date="1542339942397" expanded="true" signature="2321:2333" ph="{...}" />
-              <marker date="1542339942397" expanded="true" signature="2360:2414" ph="{...}" />
-              <marker date="1542339942397" expanded="true" signature="2455:2745" ph="{...}" />
-              <marker date="1542339942397" expanded="true" signature="2797:2909" ph="{...}" />
-              <marker date="1542339942397" expanded="true" signature="2810:2907" ph="{...}" />
-              <marker date="1542339942397" expanded="true" signature="2944:3025" ph="{...}" />
-              <marker date="1542339942397" expanded="true" signature="2957:3023" ph="{&quot;color&quot;: 'blue'...}" />
-              <marker date="1542339942397" expanded="true" signature="3583:3643" ph="{...}" />
-              <marker date="1542339942397" expanded="true" signature="3720:3770" ph="{...}" />
-              <marker date="1542339942397" expanded="true" signature="4456:4537" ph="{...}" />
-              <marker date="1542339942397" expanded="true" signature="4469:4535" ph="{&quot;color&quot;: 'blue'...}" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-06-06-使用git打Tag.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2018-10-12-react-native Xcode报错 'config.h' file not found.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="3" />
             <folding />
           </first_editor>
           <second_editor />
@@ -842,12 +774,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-10-12-react-native Xcode报错 'config.h' file not found.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2018-08-25-Change Log小工具使用指南.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="264">
-            <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
             <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-07-19-css图片打包后路径的问题.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-07-26-解决IE低版本兼容Vue项目的方法.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-09-11-git 获取，查看，删除，重命名远程分支.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-09-15-git reset 重置回滚版本.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="240">
+            <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-10-12-Xcode报错 Build input file cannot be found Users... node_modules react-native third-party double-conversion-1.1.5 src.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-10-13-react-native 图片使用问题.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="240">
+            <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <folding>
+              <marker date="1542354370703" expanded="true" signature="1498:1659" ph="{...}" />
+              <marker date="1542354370703" expanded="true" signature="1590:1622" ph="{...}" />
+            </folding>
           </first_editor>
           <second_editor />
         </state>
