@@ -75,7 +75,7 @@ var icon = this.props.active
 
 可以在 Image 组件的 source 属性中指定一些请求参数，如下面的示例：
 
-```javascript
+```
 <Image
   source={{
     uri: "https://facebook.github.io/react/logo-og.png",
