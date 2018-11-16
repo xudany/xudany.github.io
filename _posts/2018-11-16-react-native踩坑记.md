@@ -1,6 +1,6 @@
 ---
 title: react-native入门学习笔记、react-native踩坑记、越踩坑越多的react-native、react-native从入门到放弃、鬼知道我经历了什么的react-native
-date: 2018-10-11
+date: 2018-11-16
 categories:
 - react-native 
 tags:

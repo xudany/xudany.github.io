@@ -5,7 +5,6 @@ categories:
 - react-native 
 tags:
 - react-native
-- Xcode
 - issue
 ---
 
