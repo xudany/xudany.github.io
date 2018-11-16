@@ -538,7 +538,7 @@ $ react-native run-android --variant=release
 
 ## 各种各样的坑
 
-[react-native Xcode报错'config.h' file not found]()
+[react-native Xcode报错'config.h' file not found](https://xudany.github.io/react-native/2018/10/12/react-native-Xcode%E6%8A%A5%E9%94%99-'config.h'-file-not-found/)
 
 [ReactNative中iOS和Android的兼容性问题]()
 
