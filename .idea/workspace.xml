@@ -14,19 +14,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="2018-04-18-git commit 提交类型说明.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2018-04-18-git commit 提交类型说明.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="2018-06-11-万分懊恼的 commit 信息手误拯救办法.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2018-06-11-万分懊恼的 commit 信息手误拯救办法.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -79,27 +66,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018-10-11-react-native踩坑记.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2018-10-11-react-native踩坑记.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2018-10-11-react-native踩坑记.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="424">
-                <caret line="568" column="12" lean-forward="true" selection-start-line="568" selection-start-column="12" selection-end-line="568" selection-end-column="12" />
+              <first_editor relative-caret-position="328">
+                <caret line="540" column="46" lean-forward="false" selection-start-line="540" selection-start-column="46" selection-end-line="540" selection-end-column="46" />
                 <folding>
-                  <marker date="1542336324319" expanded="true" signature="2056:2145" ph="..." />
-                  <marker date="1542336324319" expanded="true" signature="2185:2747" ph="{...}" />
-                  <marker date="1542336324319" expanded="true" signature="2208:2443" ph="{...}" />
-                  <marker date="1542336324319" expanded="true" signature="2321:2333" ph="{...}" />
-                  <marker date="1542336324319" expanded="true" signature="2360:2414" ph="{...}" />
-                  <marker date="1542336324319" expanded="true" signature="2455:2745" ph="{...}" />
-                  <marker date="1542336324319" expanded="true" signature="2797:2909" ph="{...}" />
-                  <marker date="1542336324319" expanded="true" signature="2810:2907" ph="{...}" />
-                  <marker date="1542336324319" expanded="true" signature="2944:3025" ph="{...}" />
-                  <marker date="1542336324319" expanded="true" signature="2957:3023" ph="{&quot;color&quot;: 'blue'...}" />
-                  <marker date="1542336324319" expanded="true" signature="3583:3643" ph="{...}" />
-                  <marker date="1542336324319" expanded="true" signature="3720:3770" ph="{...}" />
-                  <marker date="1542336324319" expanded="true" signature="4456:4537" ph="{...}" />
-                  <marker date="1542336324319" expanded="true" signature="4469:4535" ph="{&quot;color&quot;: 'blue'...}" />
+                  <marker date="1542339942397" expanded="true" signature="2056:2145" ph="..." />
+                  <marker date="1542339942397" expanded="true" signature="2185:2747" ph="{...}" />
+                  <marker date="1542339942397" expanded="true" signature="2208:2443" ph="{...}" />
+                  <marker date="1542339942397" expanded="true" signature="2321:2333" ph="{...}" />
+                  <marker date="1542339942397" expanded="true" signature="2360:2414" ph="{...}" />
+                  <marker date="1542339942397" expanded="true" signature="2455:2745" ph="{...}" />
+                  <marker date="1542339942397" expanded="true" signature="2797:2909" ph="{...}" />
+                  <marker date="1542339942397" expanded="true" signature="2810:2907" ph="{...}" />
+                  <marker date="1542339942397" expanded="true" signature="2944:3025" ph="{...}" />
+                  <marker date="1542339942397" expanded="true" signature="2957:3023" ph="{&quot;color&quot;: 'blue'...}" />
+                  <marker date="1542339942397" expanded="true" signature="3583:3643" ph="{...}" />
+                  <marker date="1542339942397" expanded="true" signature="3720:3770" ph="{...}" />
+                  <marker date="1542339942397" expanded="true" signature="4456:4537" ph="{...}" />
+                  <marker date="1542339942397" expanded="true" signature="4469:4535" ph="{&quot;color&quot;: 'blue'...}" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -146,12 +133,25 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="2018-10-12-react-native Xcode报错 'config.h' file not found.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-10-12-react-native Xcode报错 'config.h' file not found.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="264">
+                <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="2017-09-11-fail to push some refs to git .md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2017-09-11-fail to push some refs to git .md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="3" />
+              <first_editor relative-caret-position="168">
+                <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="7" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -224,6 +224,7 @@
         <option value="$PROJECT_DIR$/_posts/2017-07-19-Not a git repository (or any of the parent directories).md" />
         <option value="$PROJECT_DIR$/_posts/react-native踩坑记.md" />
         <option value="$PROJECT_DIR$/_posts/2018-10-11-react-native踩坑记.md" />
+        <option value="$PROJECT_DIR$/_posts/React Native Xcode报错 'config.h' file not found.md" />
       </list>
     </option>
   </component>
@@ -353,12 +354,12 @@
       <workItem from="1539824039799" duration="599000" />
       <workItem from="1542251998044" duration="1682000" />
       <workItem from="1542261050883" duration="2046000" />
-      <workItem from="1542329708051" duration="1181000" />
+      <workItem from="1542329708051" duration="3604000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57525000" />
+    <option name="totallyTimeSpent" value="59948000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -394,16 +395,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/2018-07-10-背景图调试问题.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-07-11-搜索清空回退功能以及分页功能.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -748,17 +739,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-06-06-使用git打Tag.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-06-24-git切换分支时常遇到的坑.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -770,33 +750,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2017-09-11-fail to push some refs to git .md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="3" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2017-07-19-Not a git repository (or any of the parent directories).md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="96">
             <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-08-28-自动生成Change Log的实现.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="3" />
             <folding />
           </first_editor>
           <second_editor />
@@ -825,27 +783,71 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-08-28-自动生成Change Log的实现.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-10-11-react-native踩坑记.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="424">
-            <caret line="568" column="12" lean-forward="true" selection-start-line="568" selection-start-column="12" selection-end-line="568" selection-end-column="12" />
+          <first_editor relative-caret-position="328">
+            <caret line="540" column="46" lean-forward="false" selection-start-line="540" selection-start-column="46" selection-end-line="540" selection-end-column="46" />
             <folding>
-              <marker date="1542336324319" expanded="true" signature="2056:2145" ph="..." />
-              <marker date="1542336324319" expanded="true" signature="2185:2747" ph="{...}" />
-              <marker date="1542336324319" expanded="true" signature="2208:2443" ph="{...}" />
-              <marker date="1542336324319" expanded="true" signature="2321:2333" ph="{...}" />
-              <marker date="1542336324319" expanded="true" signature="2360:2414" ph="{...}" />
-              <marker date="1542336324319" expanded="true" signature="2455:2745" ph="{...}" />
-              <marker date="1542336324319" expanded="true" signature="2797:2909" ph="{...}" />
-              <marker date="1542336324319" expanded="true" signature="2810:2907" ph="{...}" />
-              <marker date="1542336324319" expanded="true" signature="2944:3025" ph="{...}" />
-              <marker date="1542336324319" expanded="true" signature="2957:3023" ph="{&quot;color&quot;: 'blue'...}" />
-              <marker date="1542336324319" expanded="true" signature="3583:3643" ph="{...}" />
-              <marker date="1542336324319" expanded="true" signature="3720:3770" ph="{...}" />
-              <marker date="1542336324319" expanded="true" signature="4456:4537" ph="{...}" />
-              <marker date="1542336324319" expanded="true" signature="4469:4535" ph="{&quot;color&quot;: 'blue'...}" />
+              <marker date="1542339942397" expanded="true" signature="2056:2145" ph="..." />
+              <marker date="1542339942397" expanded="true" signature="2185:2747" ph="{...}" />
+              <marker date="1542339942397" expanded="true" signature="2208:2443" ph="{...}" />
+              <marker date="1542339942397" expanded="true" signature="2321:2333" ph="{...}" />
+              <marker date="1542339942397" expanded="true" signature="2360:2414" ph="{...}" />
+              <marker date="1542339942397" expanded="true" signature="2455:2745" ph="{...}" />
+              <marker date="1542339942397" expanded="true" signature="2797:2909" ph="{...}" />
+              <marker date="1542339942397" expanded="true" signature="2810:2907" ph="{...}" />
+              <marker date="1542339942397" expanded="true" signature="2944:3025" ph="{...}" />
+              <marker date="1542339942397" expanded="true" signature="2957:3023" ph="{&quot;color&quot;: 'blue'...}" />
+              <marker date="1542339942397" expanded="true" signature="3583:3643" ph="{...}" />
+              <marker date="1542339942397" expanded="true" signature="3720:3770" ph="{...}" />
+              <marker date="1542339942397" expanded="true" signature="4456:4537" ph="{...}" />
+              <marker date="1542339942397" expanded="true" signature="4469:4535" ph="{&quot;color&quot;: 'blue'...}" />
             </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-06-06-使用git打Tag.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2017-09-11-fail to push some refs to git .md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="168">
+            <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="7" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-10-12-react-native Xcode报错 'config.h' file not found.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="264">
+            <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>

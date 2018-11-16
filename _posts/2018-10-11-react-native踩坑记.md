@@ -415,8 +415,6 @@ adb reverse tcp:8081 tcp:8081
 
 
 
-
-
 ## 第三方组件
 
 记得有一位伟人曾经说过，“不要重复造轮子，要站在伟人的肩膀上开发。“ 
@@ -452,7 +450,7 @@ Android 要求所有应用都有一个数字签名才会被允许安装在用户
 
 
 
-#### 生成一个签名密钥
+#### 1. 生成一个签名密钥
 
 用`keytool`命令生成一个私有密钥
 
@@ -466,7 +464,7 @@ $ keytool -genkey -v -keystore my-release-key.keystore -alias my-key-alias -keya
 
 
 
-#### 设置 gradle 变量
+#### 2. 设置 gradle 变量
 
 1. 把`my-release-key.keystore`文件放到工程中的`android/app`文件夹下。
 2. 编辑`项目目录/android/gradle.properties`。如果没有`gradle.properties`文件就创建一个，添加如下的代码（注意把其中的`****`替换为相应密码）
@@ -480,7 +478,7 @@ MYAPP_RELEASE_KEY_PASSWORD=*****
 
 
 
-#### 把签名配置加入到项目的 gradle 
+#### 3. 把签名配置加入到项目的 gradle 
 
 编辑项目目录下的`android/app/build.gradle`，添加如下的签名配置：
 
@@ -512,7 +510,7 @@ android {
 
 
 
-#### 生成发行 APK 包
+#### 4. 生成发行 APK 包
 
 表示进入项目的文件android的目录下运行以下命令
 
@@ -524,7 +522,7 @@ $ ./gradlew assembleRelease
 
 
 
-#### 测试应用的发行版本
+#### 5. 测试应用的发行版本
 
 在把发行版本提交到之前，可以做一次最终测试。输入以下命令可以在设备上安装发行版本：
 
@@ -540,7 +538,7 @@ $ react-native run-android --variant=release
 
 ## 各种各样的坑
 
-[React Native 日常报错 'config.h' file not found]()
+[react-native Xcode报错'config.h' file not found]()
 
 [ReactNative中iOS和Android的兼容性问题]()
 
