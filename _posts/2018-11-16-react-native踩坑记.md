@@ -538,21 +538,21 @@ $ react-native run-android --variant=release
 
 ## 各种各样的坑
 
-[react-native Xcode报错'config.h' file not found](https://xudany.github.io/react-native/2018/10/12/react-native-Xcode%E6%8A%A5%E9%94%99-'config.h'-file-not-found/)
+1. [react-native Xcode报错'config.h' file not found](https://xudany.github.io/react-native/2018/10/12/react-native-Xcode%E6%8A%A5%E9%94%99-'config.h'-file-not-found/)
 
-[ReactNative中iOS和Android的兼容性问题]()
+2. [ReactNative中iOS和Android的兼容性问题]()
 
-[Xcode报错 Build input file cannot be found /Users/.../node_modules/react-native/third-party/double-conversion-1.1.5/src](https://xudany.github.io/react-native/2018/10/12/Xcode%E6%8A%A5%E9%94%99-Build-input-file-cannot-be-found-Users...-node_modules-react-native-third-party-double-conversion-1.1.5-src/)
+3. [Xcode报错 Build input file cannot be found /Users/.../node_modules/react-native/third-party/double-conversion-1.1.5/src](https://xudany.github.io/react-native/2018/10/12/Xcode%E6%8A%A5%E9%94%99-Build-input-file-cannot-be-found-Users...-node_modules-react-native-third-party-double-conversion-1.1.5-src/)
 
-[react-native 图片使用问题](https://xudany.github.io/react-native/2018/10/13/react-native-%E5%9B%BE%E7%89%87%E4%BD%BF%E7%94%A8%E9%97%AE%E9%A2%98/)
+4. [react-native 图片使用问题](https://xudany.github.io/react-native/2018/10/13/react-native-%E5%9B%BE%E7%89%87%E4%BD%BF%E7%94%A8%E9%97%AE%E9%A2%98/)
 
-[Android和iOS宽高适配问题]()
+5. [Android和iOS宽高适配问题]()
 
-[react-native 如何触发keyboard]()
+6. [react-native 如何触发keyboard]()
 
-[react-native 布局中的层级问题](https://xudany.github.io/react-native/2018/10/18/react-native-%E5%B8%83%E5%B1%80%E4%B8%AD%E7%9A%84%E5%B1%82%E7%BA%A7%E9%97%AE%E9%A2%98/)
+7. [react-native 布局中的层级问题](https://xudany.github.io/react-native/2018/10/18/react-native-%E5%B8%83%E5%B1%80%E4%B8%AD%E7%9A%84%E5%B1%82%E7%BA%A7%E9%97%AE%E9%A2%98/)
 
-[react-native 项目结构]()
+8. [react-native 项目结构](https://xudany.github.io/react-native/2018/11/02/react-native%E9%A1%B9%E7%9B%AE%E7%BB%93%E6%9E%84/)
 
 
 
