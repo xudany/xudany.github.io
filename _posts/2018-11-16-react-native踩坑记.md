@@ -548,7 +548,7 @@ $ react-native run-android --variant=release
 
 5. [Android和iOS宽高适配问题]()
 
-6. [react-native 如何触发keyboard]()
+6. [react-native 常用组件之TextInput]()
 
 7. [react-native 布局中的层级问题](https://xudany.github.io/react-native/2018/10/18/react-native-%E5%B8%83%E5%B1%80%E4%B8%AD%E7%9A%84%E5%B1%82%E7%BA%A7%E9%97%AE%E9%A2%98/)
 
