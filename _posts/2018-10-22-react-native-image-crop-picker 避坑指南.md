@@ -106,19 +106,19 @@ react-native link react-native-image-crop-picker
 
 用Xcode打开项目，打开项目的info.plist文件
 
-![IMG_3150](/Users/dany/temp/IMG_3150.JPG)
+![info_plist文件](/assets/images/image-crop-picker/info_plist.JPG)
 
 添加字符串键`NSPhotoLibraryUsageDescription` 这个描述了为什么需要访问用户照片。根据所使用的功能，还可能需要`NSCameraUsageDescription`和`NSMicrophoneUsageDescription`键。
 
 可以在Information Property List 中 点击添加按钮
 
-![10_41_04__11_22_2018](/Users/dany/temp/10_41_04__11_22_2018.jpg)
+![Information Property List](/assets/images/image-crop-picker/Information_Property_List.jpg)
 
 
 
 或者这样添加
 
-![10_43_08__11_22_2018](/Users/dany/temp/10_43_08__11_22_2018.jpg)
+![xml_add](/assets/images/image-crop-picker/xml_add.jpg)
 
 ```xml
 	<key>NSCameraUsageDescription</key>
@@ -143,11 +143,11 @@ react-native link react-native-image-crop-picker
 
   - 在`Deployment Info`下，将`Deployment Target`设置为8.0
 
-    ![10_54_45__11_22_2018](/Users/dany/temp/10_54_45__11_22_2018.jpg)
+    ![Deployment Info](/assets/images/image-crop-picker/Deployment Info.jpg)
 
   - 在 `Embedded Binaries` 下， 点击  `+` 然后添加 `RSKImageCropper.framework` and `QBImagePicker.framework`
 
-    ![10_55_14__11_22_2018](/Users/dany/temp/10_55_14__11_22_2018.jpg)
+    ![Embedded Binaries](/assets/images/image-crop-picker/Embedded_Binaries.jpg)
 
 
 

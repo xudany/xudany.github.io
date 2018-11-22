@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49e6b7c7-bd19-4116-b2f1-62190f1eff57" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-11-16-react-native踩坑记.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-11-16-react-native踩坑记.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/image-crop-picker/Deployment Info.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/image-crop-picker/Embedded_Binaries.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/image-crop-picker/Information_Property_List.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/image-crop-picker/info_plist.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/image-crop-picker/xml_add.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-10-22-react-native-image-crop-picker 避坑指南.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-10-22-react-native-image-crop-picker 避坑指南.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,25 +31,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="md" value="6" />
+          <entry key="md" value="7" />
           <entry key="yml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="PLAIN_TEXT" value="7" />
           <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="71" />
+          <entry key="md" value="120" />
           <entry key="yml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="71" />
+          <entry key="PLAIN_TEXT" value="120" />
           <entry key="YAML" value="3" />
         </counts>
       </usages-collector>
@@ -52,7 +57,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2018-11-16-react-native踩坑记.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="222">
@@ -61,11 +66,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2018-10-22-react-native-image-crop-picker 避坑指南.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4998">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="189">
+              <caret line="149" column="79" selection-start-line="149" selection-start-column="79" selection-end-line="149" selection-end-column="79" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2017-07-18-test.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="79" column="23" lean-forward="true" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -195,6 +209,7 @@
         <option value="$PROJECT_DIR$/_posts/react-native-image-crop-picker 避坑指南.md" />
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_posts/2018-11-16-react-native踩坑记.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-10-22-react-native-image-crop-picker 避坑指南.md" />
       </list>
     </option>
   </component>
@@ -241,6 +256,24 @@
               <item name="xudany.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="_posts" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="xudany.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xudany.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xudany.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xudany.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xudany.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xudany.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="image-crop-picker" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -264,6 +297,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/images/image-crop-picker" />
       <recent name="$PROJECT_DIR$/_posts" />
       <recent name="E:\mproject\xudany.github.io\assets\images" />
       <recent name="E:\mproject\xudany.github.io\_posts" />
@@ -319,12 +353,12 @@
       <workItem from="1542329708051" duration="5355000" />
       <workItem from="1542348844707" duration="11010000" />
       <workItem from="1542597770338" duration="4127000" />
-      <workItem from="1542850444268" duration="2199000" />
+      <workItem from="1542850444268" duration="3269000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87852000" />
+    <option name="totallyTimeSpent" value="88922000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -437,9 +471,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2017-07-18-test.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/archive.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -495,13 +526,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-10-22-react-native-image-crop-picker 避坑指南.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4998">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
@@ -513,6 +537,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
           <caret line="548" column="39" selection-start-line="548" selection-start-column="39" selection-end-line="548" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2017-07-18-test.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="79" column="23" lean-forward="true" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-10-22-react-native-image-crop-picker 避坑指南.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="149" column="79" selection-start-line="149" selection-start-column="79" selection-end-line="149" selection-end-column="79" />
         </state>
       </provider>
     </entry>
