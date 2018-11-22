@@ -429,7 +429,7 @@ adb reverse tcp:8081 tcp:8081
 
 - 照片选择编辑：[react-native-image-crop-picker ](https://github.com/react-community/react-native-image-picker) 
 
-  此插件很强大但使用时坑比较多，曾经不知流过多少辛酸泪，可参考  [react-native-image-crop-picker 避坑指南]() 
+  此插件很强大但使用时坑比较多，曾经不知流过多少辛酸泪，可参考  [react-native-image-crop-picker 避坑指南](https://xudany.github.io/react-native/2018/10/22/react-native-image-crop-picker-%E9%81%BF%E5%9D%91%E6%8C%87%E5%8D%97/)
 
 - 图片轮播，放大，手势捏合：[react-native-image-zoom-viewer](https://github.com/magicwing/react-native-image-zoom-viewer)
 
@@ -546,7 +546,7 @@ $ react-native run-android --variant=release
 
 4. [react-native 图片使用问题](https://xudany.github.io/react-native/2018/10/13/react-native-%E5%9B%BE%E7%89%87%E4%BD%BF%E7%94%A8%E9%97%AE%E9%A2%98/)
 
-5. [Android和iOS宽高适配问题]()
+5. [react-native-image-crop-picker 避坑指南](https://xudany.github.io/react-native/2018/10/22/react-native-image-crop-picker-%E9%81%BF%E5%9D%91%E6%8C%87%E5%8D%97/)
 
 6. [react-native 常用组件之TextInput](https://xudany.github.io/react-native/2018/10/20/react-native-%E5%B8%B8%E7%94%A8%E7%BB%84%E4%BB%B6%E4%B9%8BTextInput/)
 
