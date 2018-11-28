@@ -30,7 +30,6 @@ tags:
 
 - conventional-changelog    ——根据commit生成Change log
 - conventional-changelog-cli   ——根据commit生成Change log的脚手架
-
 - marked.js  ——解析markdown文件，markdown文件转换成HTML
 - commander  ——可以自动的解析命令和参数，用于处理用户输入的命令
 - chalk  ——在终端给输出的命令行字体加上颜色
