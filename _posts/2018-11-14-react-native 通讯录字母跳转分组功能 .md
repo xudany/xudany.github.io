@@ -15,7 +15,7 @@ tags:
 
 使用 react-native 做一个如下图所示的通讯录
 
-![10_40_41__11_28_2018](/Users/dany/temp/10_40_41__11_28_2018.jpg)
+![design_img.jpg](/assets/images/contacts/design_img.jpg)
 
 
 
@@ -475,7 +475,7 @@ export default class ContactsListScreen extends Component {
 
 ## 效果图
 
-![15_01_58__11_28_2018](/Users/dany/temp/15_01_58__11_28_2018.jpg)
+![result_img.jpg](/assets/images/contacts/result_img.jpg)
 
 ## 参考文章
 

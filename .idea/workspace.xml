@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49e6b7c7-bd19-4116-b2f1-62190f1eff57" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/images/contacts/design_img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/contacts/result_img.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-11-14-react-native 通讯录字母跳转分组功能 .md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-11-14-react-native 通讯录字母跳转分组功能 .md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/2018-11-16-react-native踩坑记.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-11-16-react-native踩坑记.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/react-native 通讯录字母跳转分组功能 .md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-11-14-react-native 通讯录字母跳转分组功能 .md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -40,13 +43,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="139" />
+          <entry key="md" value="161" />
           <entry key="yml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="139" />
+          <entry key="PLAIN_TEXT" value="161" />
           <entry key="YAML" value="3" />
         </counts>
       </usages-collector>
@@ -54,11 +57,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2018-11-16-react-native踩坑记.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="556" column="30" selection-start-line="556" selection-start-column="30" selection-end-line="556" selection-end-column="30" />
+            <state relative-caret-position="421">
+              <caret line="563" lean-forward="true" selection-start-line="563" selection-end-line="563" />
             </state>
           </provider>
         </entry>
@@ -81,11 +84,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2018-11-14-react-native 通讯录字母跳转分组功能 .md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="31" lean-forward="true" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="31" />
+            <state relative-caret-position="402">
+              <caret line="477" column="16" selection-start-line="477" selection-start-column="16" selection-end-line="477" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -226,6 +229,7 @@
         <option value="$PROJECT_DIR$/_posts/2018-08-28-自动生成Change Log的实现.md" />
         <option value="$PROJECT_DIR$/_posts/react-native 通讯录字母跳转分组功能 .md" />
         <option value="$PROJECT_DIR$/_posts/2018-11-16-react-native踩坑记.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-11-14-react-native 通讯录字母跳转分组功能 .md" />
       </list>
     </option>
   </component>
@@ -276,6 +280,19 @@
               <item name="xudany.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="xudany.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xudany.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xudany.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xudany.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="contacts" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -304,11 +321,11 @@
       <recent name="E:\mproject\xudany.github.io\_posts" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/images/contacts" />
       <recent name="$PROJECT_DIR$/_posts" />
       <recent name="$PROJECT_DIR$/assets/images/image-crop-picker" />
       <recent name="E:\mproject\xudany.github.io\assets\images" />
       <recent name="E:\mproject\xudany.github.io\_posts" />
-      <recent name="E:\mproject\xudany.github.io\assets\images\bqb" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -359,12 +376,12 @@
       <workItem from="1542850444268" duration="4501000" />
       <workItem from="1542941950257" duration="4661000" />
       <workItem from="1543287040728" duration="223000" />
-      <workItem from="1543373358985" duration="2264000" />
+      <workItem from="1543373358985" duration="4060000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97302000" />
+    <option name="totallyTimeSpent" value="99098000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -558,17 +575,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-11-14-react-native 通讯录字母跳转分组功能 .md">
+    <entry file="file://$PROJECT_DIR$/_posts/2018-11-16-react-native踩坑记.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="31" lean-forward="true" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="31" />
+        <state relative-caret-position="421">
+          <caret line="563" lean-forward="true" selection-start-line="563" selection-end-line="563" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-11-16-react-native踩坑记.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2018-11-14-react-native 通讯录字母跳转分组功能 .md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="556" column="30" selection-start-line="556" selection-start-column="30" selection-end-line="556" selection-end-column="30" />
+        <state relative-caret-position="402">
+          <caret line="477" column="16" selection-start-line="477" selection-start-column="16" selection-end-line="477" selection-end-column="16" />
         </state>
       </provider>
     </entry>
