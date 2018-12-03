@@ -31,10 +31,10 @@ shadow（阴影）开头的样式现在可以在iOS上应用，但在Android中�
 
 - 对于Android
 
-   1、 既没有ZIndex属性，又没有elevation 属性时，在z轴的层叠关系由其摆放位置决定的，放在下面的组件会在上层；
-   2、 两个组件只有zIndex没有elevation属性时，zIndex大的在上层
-   3、 两个组件有elevation属性时，elevation大的在上层
-   4、 两个组件既有zIndex属性elevation属性时，以elevation为准
+   - 既没有ZIndex属性，又没有elevation 属性时，在z轴的层叠关系由其摆放位置决定的，放在下面的组件会在上层；
+   - 两个组件只有zIndex没有elevation属性时，zIndex大的在上层
+   - 两个组件有elevation属性时，elevation大的在上层
+   - 两个组件既有zIndex属性elevation属性时，以elevation为准
 
 - 对于IOS，同层级的组件，z轴的层叠关系只与摆放顺序与zIndex有关，与elevation无关
 
