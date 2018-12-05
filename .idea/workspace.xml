@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="49e6b7c7-bd19-4116-b2f1-62190f1eff57" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-10-18-react-native 布局中的层级问题.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-10-18-react-native 布局中的层级问题.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-11-14-react-native 通讯录字母跳转分组功能 .md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-11-14-react-native 通讯录字母跳转分组功能 .md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-11-16-react-native踩坑记.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-11-16-react-native踩坑记.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-08-25-Change Log小工具使用指南.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-08-25-Change Log小工具使用指南.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,24 +21,24 @@
     <session id="-1975320335">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="3" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="md" value="9" />
+          <entry key="md" value="10" />
           <entry key="yml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="9" />
+          <entry key="PLAIN_TEXT" value="10" />
           <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
@@ -60,15 +58,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2018-11-16-react-native踩坑记.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="519">
-              <caret line="569" column="21" lean-forward="true" selection-start-line="569" selection-start-column="21" selection-end-line="569" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2018-10-22-react-native-image-crop-picker 避坑指南.md">
           <provider selected="true" editor-type-id="text-editor">
@@ -132,11 +121,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2018-10-18-react-native 布局中的层级问题.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="309">
               <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-08-25-Change Log小工具使用指南.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="79">
+              <caret line="140" lean-forward="true" selection-start-line="140" selection-end-line="140" />
             </state>
           </provider>
         </entry>
@@ -199,7 +197,6 @@
         <option value="$PROJECT_DIR$/_posts/2018-07-09-xml解析路径.md" />
         <option value="$PROJECT_DIR$/_posts/2018-07-11-搜索清空回退功能以及分页功能.md" />
         <option value="$PROJECT_DIR$/_posts/2017-09-15-自我理解——啃英文的vuetify（问题很多，有待验证）.md" />
-        <option value="$PROJECT_DIR$/_posts/2018-08-25-Change Log小工具使用指南.md" />
         <option value="$PROJECT_DIR$/_posts/2018-04-26-git 本地仓库关联远程仓库.md" />
         <option value="$PROJECT_DIR$/_posts/2017-12-25-Easter egg.md" />
         <option value="$PROJECT_DIR$/_posts/2018-02-03-如何装逼的隐藏桌面文件.md" />
@@ -234,6 +231,7 @@
         <option value="$PROJECT_DIR$/_posts/2018-11-14-react-native 通讯录字母跳转分组功能 .md" />
         <option value="$PROJECT_DIR$/_posts/2018-11-16-react-native踩坑记.md" />
         <option value="$PROJECT_DIR$/_posts/2018-10-18-react-native 布局中的层级问题.md" />
+        <option value="$PROJECT_DIR$/_posts/2018-08-25-Change Log小工具使用指南.md" />
       </list>
     </option>
   </component>
@@ -267,6 +265,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -301,7 +300,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -383,12 +381,13 @@
       <workItem from="1543373358985" duration="7728000" />
       <workItem from="1543475953868" duration="758000" />
       <workItem from="1543539560105" duration="2568000" />
-      <workItem from="1543799171813" duration="2061000" />
+      <workItem from="1543799171813" duration="3285000" />
+      <workItem from="1543994726275" duration="84000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108153000" />
+    <option name="totallyTimeSpent" value="109461000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -401,6 +400,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="946" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24532852" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -460,7 +460,6 @@
     <entry file="file://$PROJECT_DIR$/_posts/2017-09-13-webpack简单学习笔记.md" />
     <entry file="file://$PROJECT_DIR$/_posts/2018-10-12-react-native Xcode报错 'config.h' file not found.md" />
     <entry file="file://$PROJECT_DIR$/_posts/2017-09-11-fail to push some refs to git .md" />
-    <entry file="file://$PROJECT_DIR$/_posts/2018-08-25-Change Log小工具使用指南.md" />
     <entry file="file://$PROJECT_DIR$/_posts/2018-07-19-css图片打包后路径的问题.md" />
     <entry file="file://$PROJECT_DIR$/_posts/2018-07-26-解决IE低版本兼容Vue项目的方法.md" />
     <entry file="file://$PROJECT_DIR$/_posts/2018-09-11-git 获取，查看，删除，重命名远程分支.md" />
@@ -527,8 +526,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-11-16-react-native踩坑记.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="569" column="21" lean-forward="true" selection-start-line="569" selection-start-column="21" selection-end-line="569" selection-end-column="21" />
+        <state relative-caret-position="8535">
+          <caret line="569" column="21" selection-start-line="569" selection-start-column="21" selection-end-line="569" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -592,6 +591,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="309">
           <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-08-25-Change Log小工具使用指南.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="140" lean-forward="true" selection-start-line="140" selection-end-line="140" />
         </state>
       </provider>
     </entry>
