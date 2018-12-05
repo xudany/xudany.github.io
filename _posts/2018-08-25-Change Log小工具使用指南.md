@@ -12,6 +12,8 @@ tags:
 
 # Change Log小工具使用指南
 
+本文是 [自动生成Change Log的实现](https://xudany.github.io/change%20log/2018/08/28/%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90Change-Log%E7%9A%84%E5%AE%9E%E7%8E%B0/) 的使用方法。
+
 ## 安装
 
 把文件夹bin置于项目根目录
@@ -20,7 +22,7 @@ tags:
 
 在package.json中添加配置
 
-```
+```json
     "bin": {
         "cl": "./bin/changelog.js"
     }
@@ -61,7 +63,7 @@ cl i
 
    例子：
 
-   ```
+   ```json
    {
      "name": "config",
      "description": "配置项",
@@ -139,19 +141,17 @@ cl i
 
    可以在项目中使用a标签自行引入
 
-   
-
    如果需要在页面中动态使用版本号，则用以下方法引入
 
    <script>中的代码
 
-   ```
+   ```javascript
    created() {
       this.version = document.getElementsByName('version')[0].content;
    }
    ```
 
-   ```
+   ```javascript
    data() {
       return {
          version: "1.0.0"
@@ -161,7 +161,7 @@ cl i
 
    <template>中的代码
 
-   ```
+   ```javascript
    <div>{{version}}</div>
    ```
 
@@ -203,7 +203,7 @@ cl --help
 
 注意： 不可以改动此部分，会影响HTML模板的生成！
 
-```
+```javascript
 <div id='write'>
     @markdown
 </div>
