@@ -12,6 +12,8 @@ tags:
 
 # Change Log小工具使用指南
 
+
+
 本文是 [自动生成Change Log的实现](https://xudany.github.io/change%20log/2018/08/28/%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90Change-Log%E7%9A%84%E5%AE%9E%E7%8E%B0/) 的使用方法。
 
 ## 安装
@@ -144,7 +146,6 @@ cl i
    如果需要在页面中动态使用版本号，则用以下方法引入
 
    <script>中的代码
-
    ```javascript
    created() {
       this.version = document.getElementsByName('version')[0].content;
@@ -160,12 +161,9 @@ cl i
    ```
 
    <template>中的代码
-
    ```javascript
-   <div>{{version}}</div>
+   <div>{{version}}</div>   
    ```
-
-   
 
 ## 其他命令
 
@@ -175,9 +173,7 @@ cl i
 cl --help
 ```
 
-
-
-  Options:
+ Options:
 
     -V, --version                  output the version number
     -h, --help                     output usage information
