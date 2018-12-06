@@ -106,7 +106,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2018-11-02-react-native项目结构.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-85">
+            <state relative-caret-position="-4566">
               <caret selection-end-line="8" selection-end-column="3" />
             </state>
           </provider>
@@ -383,12 +383,12 @@
       <workItem from="1543539560105" duration="2568000" />
       <workItem from="1543799171813" duration="3285000" />
       <workItem from="1543994726275" duration="931000" />
-      <workItem from="1544061487141" duration="607000" />
+      <workItem from="1544061487141" duration="644000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110915000" />
+    <option name="totallyTimeSpent" value="110952000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -596,7 +596,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-11-02-react-native项目结构.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85">
+        <state relative-caret-position="-4566">
           <caret selection-end-line="8" selection-end-column="3" />
         </state>
       </provider>

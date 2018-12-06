@@ -279,41 +279,14 @@ MIne/Setting/style.js：“我的”模块中设置页面的样式。
 ### redux文件目录
 
 ```
-|--actions
+|--redux
     |-- actions            
     |-- reducers     
     |-- store 
 ```
-
-
-#### actions文件目录
-
-```
-|--actions
-    |-- type.js                
-    |-- register.js     
-    |-- user.js  
-    |-- ...
-```
-
-#### reducers文件目录
-
-```
-|--reducers
-    |-- index.js                
-    |-- register.js    
-    |-- user.js  
-    |-- ...
-```
-
-#### store文件目录
-
-```
-|--store
-    |-- index.js               
-```
-
-
+actions：存放 redux 中 action 相关文件
+reducers：存放 redux 中 reducer 相关文件
+store：存放 redux 中 store 相关文件
 
 ### route文件目录
 
