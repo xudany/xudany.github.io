@@ -156,7 +156,184 @@ MIne/Setting/style.js：“我的”模块中设置页面的样式。
 
 
 
-更多redux相关  [redux快速入门]()
+------
+
+——项目结构优化 2.0.0 ——
+
+上一版的项目结构在`route`方面有些混乱，所以在这一版主要针对route做优化整合，以及把redux相关文件整合在一起。
+
+### react-native项目结构
+
+```
+|--android
+|-- app               
+|-- ios
+|-- node_modules  
+|-- index.js
+|-- package.json
+|-- ...
+```
+
+android：Android项目目录，包含了使用AndroidStudio开发项目的环境配置文件。
+
+ios：iOS项目目录，包含了Xcode的环境配置文件。
+
+app：react-native相关文件。
+
+node_modules：基于node文件依赖系统产生的相关依赖。
+
+index.js:：ios或android的项目运行时的入口文件。
+
+package.json：项目基本信息以及依赖信息。
+
+### app文件目录
+
+```
+|-- app               
+    |-- common
+    |-- components
+    |-- http
+    |-- pages
+    |-- redux
+    |-- route
+    |-- App.js
+```
+
+comon：存放一些公共文件，例如图片，样式主题等 。
+
+components： 存放一些公共组件。
+
+http：用于存放接口请求。
+
+pages： 存放react-native构建页面。主程序的主要构成部分。
+
+redux：redux 相关文件。
+
+route：存放路由文件。
+
+App.js：项目入口文件。
+
+### common文件目录
+
+```
+|--common
+    |-- images                
+    |-- native-base-theme     
+    |-- CommonColors.js  
+    |-- CommonConfig.js
+    |-- CommonImages.js
+    |-- CommonUtil.js
+    |-- CommonStyles.js
+    |-- index.js
+```
+
+images：存放公用图片，icon，background等。
+
+native-base-theme：native-base的主题样式（非必须）。
+
+CommonColors.js ：公用的颜色，颜色统一管理。
+
+CommonConfig.js：公用的全局配置，例如资源路径、接口地址、字符串常量等。
+
+CommonImages.js：公用的图片路径管理。
+
+CommonUtil.js：公用的一些工具类，例如设备屏幕的宽高、屏幕适配、判空处理、时间处理等。
+
+CommonStyles.js：公用的CSS样式。
+
+index.js：common文件引用的输出文件
+
+### pages文件目录
+
+```
+|--pages 
+    |-- TestHot.js
+    |-- Mine
+        |-- Mine.js
+        |-- style.js
+        |-- Setting
+    		|-- Setting.js
+    		|-- style.js
+    	|-- ... 
+    |-- ...
+```
+
+TestHot.js：热更新文件。
+
+Mine：项目中‘“我的”的模块。
+
+以下为业务页面：
+
+Mine/Mine.js：“我的”模块的页面。
+
+Mine/Mine.js：“我的”页面的CSS样式。
+
+Mine/Setting： “我的”模块中的设置模块。
+
+MIne/Setting/Setting.js：“我的”模块中的设置页面。
+
+MIne/Setting/style.js：“我的”模块中设置页面的样式。
+
+
+
+### redux文件目录
+
+```
+|--actions
+    |-- actions            
+    |-- reducers     
+    |-- store 
+```
+
+
+#### actions文件目录
+
+```
+|--actions
+    |-- type.js                
+    |-- register.js     
+    |-- user.js  
+    |-- ...
+```
+
+#### reducers文件目录
+
+```
+|--reducers
+    |-- index.js                
+    |-- register.js    
+    |-- user.js  
+    |-- ...
+```
+
+#### store文件目录
+
+```
+|--store
+    |-- index.js               
+```
+
+
+
+### route文件目录
+
+```
+|--route
+    |-- MainTab.js            
+    |-- RootSwitch.js
+    |-- StartStack.js
+    |-- ...
+```
+
+MainTab.js ：路由注册，创建BottomTabNavigator。
+
+RootSwitch.js：路由注册，创建SwitchNavigator。
+
+StartStack.js：路由注册，创建开始页面的StackNavigator。
+
+...：路由注册，创建各个模块的StackNavigator。
+
+
 
 
 
