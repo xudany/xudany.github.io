@@ -284,9 +284,11 @@ MIne/Setting/style.js：“我的”模块中设置页面的样式。
     |-- reducers     
     |-- store 
 ```
-actions：存放 redux 中 action 相关文件
-reducers：存放 redux 中 reducer 相关文件
-store：存放 redux 中 store 相关文件
+actions：存放 redux 中 action 相关文件。
+
+reducers：存放 redux 中 reducer 相关文件。
+
+store：存放 redux 中 store 相关文件。
 
 ### route文件目录
 
