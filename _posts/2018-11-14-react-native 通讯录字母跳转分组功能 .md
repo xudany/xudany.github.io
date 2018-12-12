@@ -480,5 +480,5 @@ export default class ContactsListScreen extends Component {
 ## 参考文章
 
 [react-native使用SectionList做通讯录列表，分组跳转](https://blog.csdn.net/halo1416/article/details/82148873?utm_source=blogxgwz0)
-n
+
 十分感谢~

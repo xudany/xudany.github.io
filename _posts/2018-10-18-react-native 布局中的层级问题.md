@@ -36,16 +36,17 @@ shadow（阴影）开头的样式现在可以在iOS上应用，但在Android中�
    - 两个组件有elevation属性时，elevation大的在上层
    - 两个组件既有zIndex属性elevation属性时，以elevation为准
 
+
+
+
 - 对于IOS，同层级的组件，z轴的层叠关系只与摆放顺序与zIndex有关，与elevation无关
-
-
-
 解决方法： 
 
 尽量改变组件的顺序，而不用zIndex或者判断是否是Android，使用elevation来替代zIndex
 
 
 
-[参考链接](https://www.jianshu.com/p/d8ec3f367f31)
+参考
 
-[参考链接](https://www.cnblogs.com/star91/p/ReactNative-cai-keng-zong-jie.html)
+- [参考链接](https://www.jianshu.com/p/d8ec3f367f31)
+- [参考链接](https://www.cnblogs.com/star91/p/ReactNative-cai-keng-zong-jie.html)
