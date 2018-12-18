@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="49e6b7c7-bd19-4116-b2f1-62190f1eff57" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/_common/components/sidebar/sidebar-author.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/_common/components/sidebar/sidebar-author.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -84,14 +83,14 @@
         <counts>
           <entry key="md" value="60" />
           <entry key="scss" value="2" />
-          <entry key="yml" value="21" />
+          <entry key="yml" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="60" />
           <entry key="SCSS" value="2" />
-          <entry key="YAML" value="21" />
+          <entry key="YAML" value="35" />
         </counts>
       </usages-collector>
     </session>
@@ -101,8 +100,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="600" column="17" selection-start-line="600" selection-start-column="17" selection-end-line="600" selection-end-column="17" />
+            <state relative-caret-position="321">
+              <caret line="606" column="19" selection-start-line="606" selection-start-column="19" selection-end-line="606" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -375,12 +374,12 @@
       <workItem from="1544493748314" duration="1167000" />
       <workItem from="1544594092018" duration="319000" />
       <workItem from="1544607708051" duration="636000" />
-      <workItem from="1545113178427" duration="1227000" />
+      <workItem from="1545113178427" duration="1443000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118909000" />
+    <option name="totallyTimeSpent" value="119125000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -395,7 +394,7 @@
     <frame x="-1826" y="82" width="1680" height="946" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24532852" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24532852" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -408,7 +407,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.25761124" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.25761124" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -619,8 +618,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="600" column="17" selection-start-line="600" selection-start-column="17" selection-end-line="600" selection-end-column="17" />
+        <state relative-caret-position="321">
+          <caret line="606" column="19" selection-start-line="606" selection-start-column="19" selection-end-line="606" selection-end-column="19" />
         </state>
       </provider>
     </entry>
