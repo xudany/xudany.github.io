@@ -538,25 +538,25 @@ $ react-native run-android --variant=release
 
 ## 各种各样的坑
 
-1. [react-native Xcode报错'config.h' file not found](https://xudany.github.io/react-native/2018/10/12/react-native-Xcode%E6%8A%A5%E9%94%99-'config.h'-file-not-found/)
+- [react-native Xcode报错'config.h' file not found](https://xudany.github.io/react-native/2018/10/12/react-native-Xcode%E6%8A%A5%E9%94%99-'config.h'-file-not-found/)
 
-2. [ReactNative中iOS和Android的兼容性问题]()
+- [ReactNative中iOS和Android的兼容性问题]()
 
-3. [Xcode报错 Build input file cannot be found /Users/.../node_modules/react-native/third-party/double-conversion-1.1.5/src](https://xudany.github.io/react-native/2018/10/12/Xcode%E6%8A%A5%E9%94%99-Build-input-file-cannot-be-found-Users...-node_modules-react-native-third-party-double-conversion-1.1.5-src/)
+- [Xcode报错 Build input file cannot be found /Users/.../node_modules/react-native/third-party/double-conversion-1.1.5/src](https://xudany.github.io/react-native/2018/10/12/Xcode%E6%8A%A5%E9%94%99-Build-input-file-cannot-be-found-Users...-node_modules-react-native-third-party-double-conversion-1.1.5-src/)
 
-4. [react-native 图片使用问题](https://xudany.github.io/react-native/2018/10/13/react-native-%E5%9B%BE%E7%89%87%E4%BD%BF%E7%94%A8%E9%97%AE%E9%A2%98/)
+- [react-native 图片使用问题](https://xudany.github.io/react-native/2018/10/13/react-native-%E5%9B%BE%E7%89%87%E4%BD%BF%E7%94%A8%E9%97%AE%E9%A2%98/)
 
-5. [react-native-image-crop-picker 避坑指南](https://xudany.github.io/react-native/2018/10/22/react-native-image-crop-picker-%E9%81%BF%E5%9D%91%E6%8C%87%E5%8D%97/)
+- [react-native-image-crop-picker 避坑指南](https://xudany.github.io/react-native/2018/10/22/react-native-image-crop-picker-%E9%81%BF%E5%9D%91%E6%8C%87%E5%8D%97/)
 
-6. [react-native 常用组件之TextInput](https://xudany.github.io/react-native/2018/10/20/react-native-%E5%B8%B8%E7%94%A8%E7%BB%84%E4%BB%B6%E4%B9%8BTextInput/)
+- [react-native 常用组件之TextInput](https://xudany.github.io/react-native/2018/10/20/react-native-%E5%B8%B8%E7%94%A8%E7%BB%84%E4%BB%B6%E4%B9%8BTextInput/)
 
-7. [react-native 布局中的层级问题](https://xudany.github.io/react-native/2018/10/18/react-native-%E5%B8%83%E5%B1%80%E4%B8%AD%E7%9A%84%E5%B1%82%E7%BA%A7%E9%97%AE%E9%A2%98/)
+- [react-native 布局中的层级问题](https://xudany.github.io/react-native/2018/10/18/react-native-%E5%B8%83%E5%B1%80%E4%B8%AD%E7%9A%84%E5%B1%82%E7%BA%A7%E9%97%AE%E9%A2%98/)
 
-8. [react-native 项目结构](https://xudany.github.io/react-native/2018/11/02/react-native%E9%A1%B9%E7%9B%AE%E7%BB%93%E6%9E%84/)
+- [react-native 项目结构](https://xudany.github.io/react-native/2018/11/02/react-native%E9%A1%B9%E7%9B%AE%E7%BB%93%E6%9E%84/)
 
-9. [react-native 通讯录字母跳转分组功能](https://xudany.github.io/react-native/2018/11/14/react-native-%E9%80%9A%E8%AE%AF%E5%BD%95%E5%AD%97%E6%AF%8D%E8%B7%B3%E8%BD%AC%E5%88%86%E7%BB%84%E5%8A%9F%E8%83%BD/)
+- [react-native 通讯录字母跳转分组功能](https://xudany.github.io/react-native/2018/11/14/react-native-%E9%80%9A%E8%AE%AF%E5%BD%95%E5%AD%97%E6%AF%8D%E8%B7%B3%E8%BD%AC%E5%88%86%E7%BB%84%E5%8A%9F%E8%83%BD/)
 
-10. [react-native 如何添加字体]()
+- [react-native 如何添加字体]()
 
 
 ## 官方推荐的学习资源

@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49e6b7c7-bd19-4116-b2f1-62190f1eff57" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/images/avatar.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-09-11-git 获取，查看，删除，重命名远程分支.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-09-11-git 获取，查看，删除，重命名远程分支.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-10-18-react-native 布局中的层级问题.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-10-18-react-native 布局中的层级问题.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-11-14-react-native 通讯录字母跳转分组功能 .md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-11-14-react-native 通讯录字母跳转分组功能 .md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-11-16-react-native踩坑记.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-11-16-react-native踩坑记.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -57,122 +57,97 @@
     <session id="-2032553697">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="md" value="1" />
+          <entry key="gif" value="4" />
+          <entry key="md" value="2" />
+          <entry key="png" value="3" />
+          <entry key="svg" value="12" />
+          <entry key="yml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Image" value="7" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="SVG" value="12" />
+          <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="md" value="60" />
+          <entry key="yml" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="60" />
+          <entry key="YAML" value="9" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2018-08-28-自动生成Change Log的实现.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2018-11-14-react-native 通讯录字母跳转分组功能 .md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7230">
-              <caret line="482" selection-start-line="482" selection-end-line="482" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2017-07-18-test.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1185">
-              <caret line="79" column="23" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+            <state relative-caret-position="192">
+              <caret line="234" column="8" selection-start-line="234" selection-start-column="8" selection-end-line="234" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2018-11-02-react-native项目结构.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4620">
-              <caret line="308" column="31" selection-start-line="308" selection-start-column="31" selection-end-line="308" selection-end-column="31" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/assets/images/avatar.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2018-10-20-react-native 常用组件之TextInput.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="8" selection-end-column="3" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/assets/images/cc-zero.svg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2018-10-18-react-native 布局中的层级问题.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="37" selection-start-line="37" selection-end-line="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/2018-09-11-git 获取，查看，删除，重命名远程分支.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="54" column="3" lean-forward="true" selection-start-line="54" selection-start-column="3" selection-end-line="54" selection-end-column="3" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/assets/images/cc-by-sa.svg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2018-08-25-Change Log小工具使用指南.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2715">
-              <caret line="181" column="11" selection-start-line="181" selection-start-column="11" selection-end-line="181" selection-end-column="11" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/assets/images/cc-by-nd.svg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2018-10-13-react-native 图片使用问题.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1005">
-              <caret line="67" column="5" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/assets/images/cc-by-nc-sa.svg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/images/cc-by-nc-nd.svg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/images/cc-by-nc.svg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/images/cc-by.svg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/images/avatar.gif">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -196,9 +171,9 @@
       <find>baidu</find>
       <find>busuanzi_count</find>
       <find>version</find>
-      <find>avatar</find>
       <find>5</find>
       <find>section</find>
+      <find>avatar</find>
     </findStrings>
     <dirStrings>
       <dir>E:\mproject\xudany.github.io</dir>
@@ -251,7 +226,6 @@
         <option value="$PROJECT_DIR$/_posts/react-native 常用组件之TextInput.md" />
         <option value="$PROJECT_DIR$/_posts/2018-10-13-react-native 图片使用问题.md" />
         <option value="$PROJECT_DIR$/_posts/react-native-image-crop-picker 避坑指南.md" />
-        <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_posts/2018-10-22-react-native-image-crop-picker 避坑指南.md" />
         <option value="$PROJECT_DIR$/_posts/2018-08-28-自动生成Change Log的实现.md" />
         <option value="$PROJECT_DIR$/_posts/react-native 通讯录字母跳转分组功能 .md" />
@@ -261,6 +235,7 @@
         <option value="$PROJECT_DIR$/_posts/2018-11-14-react-native 通讯录字母跳转分组功能 .md" />
         <option value="$PROJECT_DIR$/_posts/2018-10-18-react-native 布局中的层级问题.md" />
         <option value="$PROJECT_DIR$/_posts/2018-09-11-git 获取，查看，删除，重命名远程分支.md" />
+        <option value="$PROJECT_DIR$/_config.yml" />
       </list>
     </option>
   </component>
@@ -294,7 +269,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -318,17 +292,11 @@
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="xudany.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xudany.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="contacts" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -347,15 +315,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\mproject\xudany.github.io" />
-      <recent name="E:\mproject\xudany.github.io\_posts" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/images" />
       <recent name="$PROJECT_DIR$/assets/images/contacts" />
       <recent name="$PROJECT_DIR$/_posts" />
       <recent name="$PROJECT_DIR$/assets/images/image-crop-picker" />
       <recent name="E:\mproject\xudany.github.io\assets\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\mproject\xudany.github.io" />
       <recent name="E:\mproject\xudany.github.io\_posts" />
     </key>
   </component>
@@ -414,12 +382,14 @@
       <workItem from="1543994726275" duration="931000" />
       <workItem from="1544061487141" duration="5252000" />
       <workItem from="1544493748314" duration="1167000" />
-      <workItem from="1544594092018" duration="121000" />
+      <workItem from="1544594092018" duration="319000" />
+      <workItem from="1544607708051" duration="636000" />
+      <workItem from="1545113178427" duration="662000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116848000" />
+    <option name="totallyTimeSpent" value="118344000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -460,36 +430,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/2017-12-01-随感.md" />
-    <entry file="file://$PROJECT_DIR$/_posts/2017-12-25-Easter egg.md" />
-    <entry file="file://$PROJECT_DIR$/_posts/2018-02-03-如何装逼的隐藏桌面文件.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/loading.gif">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/searchicon.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2017-07-19-highlight.md" />
-    <entry file="file://$PROJECT_DIR$/_posts/2018-03-28-生成SSH key的方法.md" />
-    <entry file="file://$PROJECT_DIR$/about/index.md" />
-    <entry file="file://$PROJECT_DIR$/_posts/2018-04-18-git commit 提交类型说明.md" />
-    <entry file="file://$PROJECT_DIR$/_posts/2018-06-11-万分懊恼的 commit 信息手误拯救办法.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="79" lean-forward="true" selection-start-line="24" selection-start-column="79" selection-end-line="24" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/Xcode%E6%8A%A5%E9%94%99%EF%BC%9Aerror%3A%20Build%20input%20file%20cannot%20be%20found%3A%20%3Athird-party%3Adouble-conversion-1.1.5%3Asrc%3A.md" />
-    <entry file="file://$PROJECT_DIR$/_posts/2018-06-24-git切换分支时常遇到的坑.md" />
-    <entry file="file://$PROJECT_DIR$/_posts/2018-06-06-使用git打Tag.md" />
-    <entry file="file://$PROJECT_DIR$/_posts/2017-07-19-Not a git repository (or any of the parent directories).md" />
-    <entry file="file://$PROJECT_DIR$/_posts/2018-07-09-xml解析路径.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2017-09-13-webpack简单学习笔记.md" />
     <entry file="file://$PROJECT_DIR$/_posts/2018-10-12-react-native Xcode报错 'config.h' file not found.md" />
     <entry file="file://$PROJECT_DIR$/_posts/2017-09-11-fail to push some refs to git .md" />
     <entry file="file://$PROJECT_DIR$/_posts/2018-07-19-css图片打包后路径的问题.md" />
@@ -555,13 +495,6 @@
     <entry file="file://$PROJECT_DIR$/_posts/2018-07-10-背景图调试问题.md">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-11-16-react-native踩坑记.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8535">
-          <caret line="569" column="21" selection-start-line="569" selection-start-column="21" selection-end-line="569" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-10-22-react-native-image-crop-picker 避坑指南.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2100">
@@ -590,13 +523,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-11-02-react-native项目结构.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4620">
@@ -608,6 +534,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-10-18-react-native 布局中的层级问题.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" selection-start-line="37" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-09-11-git 获取，查看，删除，重命名远程分支.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="54" column="3" lean-forward="true" selection-start-line="54" selection-start-column="3" selection-end-line="54" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -625,17 +565,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-10-18-react-native 布局中的层级问题.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2018-11-16-react-native踩坑记.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="37" selection-start-line="37" selection-end-line="40" />
+        <state relative-caret-position="327">
+          <caret line="558" column="22" selection-start-line="558" selection-start-column="3" selection-end-line="558" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-09-11-git 获取，查看，删除，重命名远程分支.md">
+    <entry file="file://$PROJECT_DIR$/assets/images/algolia_logo.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/searchicon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/quote-r.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/quote-l.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/placeholder.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/photo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/loading.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/cc-zero.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/cc-by-sa.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/cc-by-nd.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/cc-by-nc-sa.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/cc-by-nc-nd.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/cc-by-nc.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/cc-by.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/avatar.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/avatar.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="54" column="3" lean-forward="true" selection-start-line="54" selection-start-column="3" selection-end-line="54" selection-end-column="3" />
+        <state relative-caret-position="192">
+          <caret line="234" column="8" selection-start-line="234" selection-start-column="8" selection-end-line="234" selection-end-column="8" />
         </state>
       </provider>
     </entry>
