@@ -241,7 +241,7 @@ _onSectionselect = (key) => {
 
 ### 完整代码
 
-```
+```javascript
 import React, {Component} from "react";
 import {
   View,

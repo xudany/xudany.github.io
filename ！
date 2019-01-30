@@ -1,0 +1,16 @@
+feat: stubborn
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Date:      Tue Dec 18 15:19:54 2018 +0800
+#
+# On branch develop
+# Your branch is ahead of 'origin/develop' by 1 commit.
+#   (use "git push" to publish your local commits)
+#
+# Changes to be committed:
+#	modified:   .idea/workspace.xml
+#	modified:   _config.yml
+#	new file:   assets/images/avatar.jpg
+#
