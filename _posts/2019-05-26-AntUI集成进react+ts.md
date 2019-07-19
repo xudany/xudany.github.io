@@ -1,196 +1,17 @@
 ---
-title: react + ts 学习历程
-date: 2019-05-25
+title: AntUI集成进react+ts
+date: 2019-05-26
 categories:
-- react
+- AntUI
 tags:
 - react
 - ts
 - Learning
 ---
 
-1.安装初始化一个react + ts 的项目
-
-```bash
-npm install -g create-react-app
-create-react-app my-app --scripts-version=react-scripts-ts
-```
 
 
-
-此时的工程结构应如下所示：
-
-```
-my-app/
-├─ .gitignore
-├─ node_modules/
-├─ public/
-├─ src/
-│  └─ ...
-├─ package.json
-├─ tsconfig.json
-└─ tslint.json
-```
-
-注意：
-
-- `tsconfig.json`包含了工程里TypeScript特定的选项。
-- `tslint.json`保存了要使用的代码检查器的设置，[TSLint](https://github.com/palantir/tslint)。
-- `package.json`包含了依赖，还有一些命令的快捷方式，如测试命令，预览命令和发布应用的命令。
-- `public`包含了静态资源如HTML页面或图片。除了`index.html`文件外，其它的文件都可以删除。
-- `src`包含了TypeScript和CSS源码。`index.tsx`是强制使用的入口文件。
-
-
-
-待拓展
-
-2. 增加ignore文件
-
-   ```bash
-   # See https://help.github.com/ignore-files/ for more about ignoring files.
-   
-   # dependencies
-   /node_modules
-   
-   # testing
-   /coverage
-   
-   # production
-   /build
-   
-   # misc
-   .DS_Store
-   .env.local
-   .env.development.local
-   .env.test.local
-   .env.production.local
-   .idea
-   
-   npm-debug.log*
-   yarn-debug.log*
-   yarn-error.log*
-   
-   ```
-
-3. 增加目录结构
-
-   增加src目录下的结构
-
-   ```
-   src/
-   ├─ actions/
-   │  └─index.ts
-   ├─ assets/
-   │  └─logo.svg
-   ├─ components/
-   │  └─ Menu.tsx
-   ├─ containers/
-   │  └─ Menu.ts
-   ├─ interface/
-   │  └─index.ts
-   ├─ layouts/
-   		├─ PageLayout/
-   		│  └─index.tsx
-   		├─ BasicLayout.tsx
-   ├─ pages/
-   │  └─ index.tsx
-   ├─ reducers/
-   │  └─ index.ts
-   ├─ sagas/
-   │  └─index.ts
-   ├─ services/
-   │  └─api.ts
-   ├─ utils/
-   │  └─Logger.ts
-   ├─ webpack/
-   └─ App.tsx
-   ```
-
-4. 增加Logger
-
-  ```javascript
-  export interface Logger {
-      trace(message?: any, ...param: any[]): void;
-  
-      debug(message?: any, ...param: any[]): void;
-  
-      info(message?: any, ...param: any[]): void;
-  
-      warn(message?: any, ...param: any[]): void;
-  
-      error(message?: any, ...param: any[]): void;
-  }
-  
-  class LoggerClass implements Logger {
-  
-      protected moduleName: string = '';
-      protected TIMESTAMP: string = 'YYYY-MM-DD HH:mm:ss.sss';
-  
-      constructor(moduleName: string) {
-          this.moduleName = moduleName;
-      }
-  
-      public trace(message?: any, ...param: any[]): void {
-          // console.trace(`[${moment().format(this.TIMESTAMP)}] [${this.moduleName}]`, message, ...param);
-          console.trace(`[${this.moduleName}]`, message, ...param);
-  
-      }
-  
-      public debug(message?: any, ...param: any[]): void {
-          // console.debug(`[${moment().format(this.TIMESTAMP)}] [${this.moduleName}]`, message, ...param);
-          console.trace(`[${this.moduleName}]`, message, ...param);
-  
-      }
-  
-      public info(message?: any, ...param: any[]): void {
-          // console.info(`[${moment().format(this.TIMESTAMP)}] [${this.moduleName}]`, message, ...param);
-          console.trace(`[${this.moduleName}]`, message, ...param);
-  
-      }
-  
-      public warn(message?: any, ...param: any[]): void {
-          // console.warn(`[${moment().format(this.TIMESTAMP)}] [${this.moduleName}]`, message, ...param);
-          console.trace(`[${this.moduleName}]`, message, ...param);
-  
-      }
-  
-      public error(message?: any, ...param: any[]): void {
-          // console.error(`[${moment().format(this.TIMESTAMP)}] [${this.moduleName}]`, message, ...param);
-          console.trace(`[${this.moduleName}]`, message, ...param);
-  
-      }
-  }
-  
-  export function createLogger(moduleName: string): Logger {
-      return new LoggerClass(moduleName);
-  }
-  
-  export function LoggerDecorator(target: string): any;
-  export function LoggerDecorator(target: object, propertyKey: string): void;
-  export function LoggerDecorator(target: any, propertyKey?: any): any {
-      if (typeof target === "object") {
-          target[propertyKey] = createLogger(target.constructor.name);
-      } else {
-          return function (tar: any, pKey: string): any {
-              tar[pKey] = createLogger(target);
-          };
-      }
-  }
-  ```
-
-
-
-
-5. 添加路由
-
-```bash
- npm install react-router-dom --save
- npm install @types/react-router-dom --save-dev
-```
-
-
-
-6. 添加老版antd (3.16.3)
+1. 添加老版antd (3.16.3)
 
 ```bash
 npm install antd --save
@@ -229,10 +50,11 @@ module.exports = function override(config, env) {
 
 ​       [ts-import-plugin](https://github.com/Brooooooklyn/ts-import-plugin) 是一个用于按需加载组件代码和样式的 TypeScript 插件（[原理](http://beta.ant.design/docs/react/getting-started-cn#按需加载)），现在我们尝试安装它并修改 `config-overrides.js` 文件。
 
-  ```bash
+```bash
   $npm install ts-import-plugin --save-dev
-  ```
-  ```javascript
+```
+
+```javascript
   /* config-overrides.js */
   const tsImportPluginFactory = require('ts-import-plugin')
   const { getLoader } = require("react-app-rewired");
@@ -258,11 +80,11 @@ module.exports = function override(config, env) {
 
     return config;
   }
-  ```
+```
 
   然后移除前面在 `src/App.css` 里全量添加的 `@import '~antd/dist/antd.css';` 样式代码，并且按下面的格式引入模块。
 
-  ```javascript
+```javascript
   import * as React from 'react';
   import { Button } from 'antd';
   import './App.css';
@@ -278,7 +100,7 @@ module.exports = function override(config, env) {
   }
 
   export default App;
-  ```
+```
 
 
 
@@ -518,147 +340,3 @@ module.exports = override(
 这里利用了 [less-loader](https://github.com/webpack/less-loader#less-options) 的 `modifyVars` 来进行主题配置，变量和其他配置方式可以参考 [配置主题](https://ant.design/docs/react/customize-theme-cn) 文档。
 
 修改后重启 `yarn start`，如果看到一个绿色的按钮就说明配置成功了。
-
-
-
-7. 安装lodash
-
-   ```bash
-   npm install lodash --save
-   npm install @types/lodash --save-dev
-   ```
-   
-8. 安装redux
-  ```bash
-   npm install react-redux --save
-   npm install redux --save
-   npm install @types/react-redux --save-dev
-  ```
-
-9. 安装[redux-actions](https://github.com/redux-utilities/redux-actions)
-
-   GitHub地址：<https://github.com/redux-utilities/redux-actions>
-
-   当在开发大型应用的时候，对于大量的action，reducer需要些大量的swich来对action.type进行判断。
-
-   redux-actions可以简化这一烦琐的过程，它可以是actionCreator，也可以用来生成reducer，其作用都是用来简化action、reducer。主要函数有createAction、createActions、handleAction、handleActions、combineActions。
-
-   ```bash
-   npm install redux-actions --save
-   npm install @types/redux-actions --save-dev
-   ```
-
-10. 安装[humps](https://github.com/domchristie/humps)
-
-  用于JavaScript中的字符串和对象键的下划线到驼峰写法的转换器(反之亦然)。
-
-  GitHub地址：<https://github.com/domchristie/humps>
-
-  ```bash
-  npm install humps --save
-  npm install @types/humps --save-dev
-  ```
-
-  基本用法：
-
-  转换字符串
-
-  ```
-  humps.camelize('hello_world') // 'helloWorld'
-  humps.decamelize('fooBar') // 'foo_bar'
-  humps.decamelize('fooBarBaz', { separator: '-' }) // 'foo-bar-baz'
-  ```
-
-  转换对象键
-
-  ```
-  var object = { attr_one: 'foo', attr_two: 'bar' }
-  humps.camelizeKeys(object); // { attrOne: 'foo', attrTwo: 'bar' }
-  ```
-
-  对象数组也被转换
-
-  ```
-  var array = [{ attr_one: 'foo' }, { attr_one: 'bar' }]
-  humps.camelizeKeys(array); // [{ attrOne: 'foo' }, { attrOne: 'bar' }]
-  ```
-
-
-
-11. 增加 [redux-devtools-extension](<https://github.com/zalmoxisus/redux-devtools-extension>)
-
-    Redux DevTools的扩展，更好看的页面
-
-    ```bash
-    npm install --save-dev redux-devtools-extension
-    ```
-
-12. 增加action和reducers
-
-
-
-13. 增加less
-
-    ```bash
-    npm install --save-dev less less-loader
-    ```
-
-14. 增加sass
-
-    ```bash
-    $ npm install node-sass --save
-    ```
-
-15. history
-
-    history是一个JavaScript库，可以让您轻松地在JavaScript运行的任何地方管理会话历史。history抽象了不同环境中的差异，并提供了一个最小的API，允许您管理历史堆栈、导航、确认导航和会话之间的持久状态。
-
-    ```bash
-    npm install --save history
-    ```
-
-16. 增加ts配置文件
-
-    tsconfig.json
-
-    ```json
-    // https://zhongsp.gitbooks.io/typescript-handbook/content/doc/handbook/Compiler%20Options.html
-    {
-      "compilerOptions": {
-        "baseUrl": ".",
-        "outDir": "build/dist",
-        "module": "esnext",
-        "target": "es5",
-        "lib": ["es6", "dom"],
-        "sourceMap": true,
-        "allowJs": true,
-        "jsx": "react",
-        "moduleResolution": "node",
-        "rootDir": "src",
-        "forceConsistentCasingInFileNames": true,
-        "noImplicitReturns": true,
-        "noImplicitThis": true,
-        "noImplicitAny": false,
-        "importHelpers": true,
-        "strictNullChecks": true,
-        "allowSyntheticDefaultImports":true,
-        "suppressImplicitAnyIndexErrors": true,
-        "experimentalDecorators": true,
-        "noUnusedLocals": false,
-        "noUnusedParameters": false,
-        "paths": {
-          "@/*": [
-            "./src/*"
-          ]
-        }
-      },
-      "exclude": [
-        "node_modules",
-        "build",
-        "scripts",
-        "acceptance-tests",
-        "webpack",
-        "jest"
-      ]
-    }
-    ```
