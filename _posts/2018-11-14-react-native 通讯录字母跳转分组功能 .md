@@ -4,8 +4,9 @@ date: 2018-11-14
 categories:
 - react-native
 tags:
+- 字母快速检索控件
+- 字母索引导航
 - react-native
-- component
 - FlatList
 - SectionList
 ---
