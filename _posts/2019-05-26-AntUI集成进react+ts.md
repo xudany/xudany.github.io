@@ -11,19 +11,19 @@ tags:
 
 ## AntUI集成进react+ts
 
-1. 添加老版antd (3.16.3)
+### 添加老版antd (3.16.3)
 
 ```bash
 npm install antd --save
 ```
 
-按需引入组件
+#### 1. 按需引入组件
 
 ```bash
 npm install react-app-rewired --save-dev
 ```
 
-修改package.json的配置
+#### 2. 修改package.json的配置
 
 ```json
 /* package.json */
@@ -46,7 +46,7 @@ module.exports = function override(config, env) {
 };
 ```
 
-使用 ts-import-plugin
+#### 3. 使用 ts-import-plugin
 
 ​       [ts-import-plugin](https://github.com/Brooooooklyn/ts-import-plugin) 是一个用于按需加载组件代码和样式的 TypeScript 插件（[原理](http://beta.ant.design/docs/react/getting-started-cn#按需加载)），现在我们尝试安装它并修改 `config-overrides.js` 文件。
 
@@ -104,7 +104,11 @@ module.exports = function override(config, env) {
 
 
 
-报错：
+#### 4. 遇到的问题
+
+##### -  Cannt find module react-scripts-ts/config/webpack.config
+
+  报错内容：
 
 ```bash
 Cannt find module react-scripts-ts/config/webpack.config
@@ -126,7 +130,9 @@ Cannt find module react-scripts-ts/config/webpack.config
 
 参考： <https://github.com/timarney/react-app-rewired/issues/358>
 
-报错：
+
+##### - The key 'libraryDirectory' is not sorted alphabetically
+ 报错内容：
 
 ```bash
 The key 'libraryDirectory' is not sorted alphabetically
@@ -138,7 +144,11 @@ The key 'libraryDirectory' is not sorted alphabetically
 
 参考： <https://github.com/ant-design/ant-design/issues/10533>
 
-报错：
+
+
+##### - interface name must not have an "I" prefix
+
+报错内容：
 
 ```bash
 interface name must not have an "I" prefix
@@ -187,13 +197,13 @@ interface name must not have an "I" prefix
 
 
 
-安装新版 ant3.20.3
+### 安装新版 ant3.20.3
 
 ```bash
 npm install antd --save
 ```
 
-全局引用
+#### 全局引用
 
 修改 `src/App.tsx`，引入 antd 的按钮组件。
 
@@ -215,7 +225,7 @@ class App extends Component {
 export default App;
 ```
 
-修改 `src/App.css` 引入 antd 的样式。
+#### 修改 `src/App.css` 引入 antd 的样式。
 
 ```css
 @import '~antd/dist/antd.css';
@@ -231,7 +241,7 @@ export default App;
 
 
 
-高级配置，按需引入
+#### 高级配置，按需引入
 
 此时我们需要对 create-react-app 的默认配置进行自定义，这里我们使用 [react-app-rewired](https://github.com/timarney/react-app-rewired) （一个对 create-react-app 进行自定义配置的社区解决方案）。
 
@@ -340,3 +350,5 @@ module.exports = override(
 这里利用了 [less-loader](https://github.com/webpack/less-loader#less-options) 的 `modifyVars` 来进行主题配置，变量和其他配置方式可以参考 [配置主题](https://ant.design/docs/react/customize-theme-cn) 文档。
 
 修改后重启 `yarn start`，如果看到一个绿色的按钮就说明配置成功了。
+
+以上得出结论： 还是新版的ant集成简单呀~~   _(:з」∠)_
