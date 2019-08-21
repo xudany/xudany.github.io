@@ -13,7 +13,15 @@ npm包+ts+rollup+Babel 的一些相关配置
 
 
 
-## ts的配置文件
+## ts的配置
+
+需要安装的依赖
+
+```bash
+npm install --save typescript
+```
+
+
 
 tsconfig.json
 
@@ -64,7 +72,15 @@ tsconfig.json
 
 
 
-## rollup的配置文件
+## rollup的配置
+
+需要安装的依赖
+
+```bash
+npm install --save-dev rollup rollup-plugin-node-resolve rollup-plugin-commonjs rollup-plugin-babel rollup-plugin-uglify rollup-plugin-json rollup-plugin-node-builtins rollup-plugin-node-globals
+```
+
+
 
 rollup.config.js
 
@@ -178,7 +194,15 @@ export default [
 
 
 
-## babel的配置文件
+## babel的配置
+
+需要安装的依赖
+
+```bash
+npm install --save-dev @babel/core @babel/plugin-transform-runtime @babel/preset-env babel-core babel-plugin-external-helpers babel-preset-latest babel-upgrade
+```
+
+
 
 .babelrc
 
@@ -199,3 +223,80 @@ export default [
 
 - [为npm包提供多入口](https://xiaoiver.github.io/coding/2017/07/17/%E4%B8%BAnpm%E5%8C%85%E6%8F%90%E4%BE%9B%E5%A4%9A%E5%85%A5%E5%8F%A3.html)
 
+
+
+## 配置过程中遇到的问题
+
+### 1. TS2354: This syntax requires an imported helper but module 'tslib' cannot be found
+
+报错内容：
+
+```bash
+ TS2354: This syntax requires an imported helper but module 'tslib' cannot be found
+```
+
+解决方法：
+
+下载tslib
+
+```bash
+npm install tslib --save-dev
+```
+
+### 2. (plugin commonjs) TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string
+
+报错内容：
+
+```bash
+[!] (plugin commonjs) TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string
+```
+
+解决方法：
+
+rollup.config.js配置文件中的`input`字段输入有误，检查路径是否正确
+
+
+
+### 3. [!] (plugin babel) SyntaxError
+
+报错内容：
+
+```bash
+[!] (plugin babel) SyntaxError: E:/mproject/oauth-login-package/node_modules/axios/package.json: Unexpected token, expected ; (2:9)
+node_modules\axios\package.json (2:9)
+SyntaxError: E:/mproject/oauth-login-package/node_modules/axios/package.json: Unexpected token, expected ; (2:9)
+  1 | {
+> 2 |   "_from": "axios@^0.19.0",
+    |          ^
+  3 |   "_id": "axios@0.19.0",
+  4 |   "_inBundle": false,
+  5 |   "_integrity": "sha1-jgm/89kSLhM/e4EByPvdAO09Krg=",
+    at Parser.pp$5.raise (E:\mproject\oauth-login-package\node_modules\babylon\lib\index.js:4454:13)
+    at Parser.pp.unexpected (E:\mproject\oauth-login-package\node_modules\babylon\lib\index.js:1761:8)
+    at Parser.pp.semicolon (E:\mproject\oauth-login-package\node_modules\babylon\lib\index.js:1742:38)
+    at Parser.pp$1.parseExpressionStatement (E:\mproject\oauth-login-package\node_modules\babylon\lib\index.js:2236:8)
+    at Parser.pp$1.parseStatement (E:\mproject\oauth-login-package\node_modules\babylon\lib\index.js:1911:17)
+    at Parser.pp$1.parseBlockBody (E:\mproject\oauth-login-package\node_modules\babylon\lib\index.js:2268:21)
+    at Parser.pp$1.parseBlock (E:\mproject\oauth-login-package\node_modules\babylon\lib\index.js:2247:8)
+    at Parser.pp$1.parseStatement (E:\mproject\oauth-login-package\node_modules\babylon\lib\index.js:1868:19)
+    at Parser.pp$1.parseBlockBody (E:\mproject\oauth-login-package\node_modules\babylon\lib\index.js:2268:21)
+    at Parser.pp$1.parseTopLevel (E:\mproject\oauth-login-package\node_modules\babylon\lib\index.js:1778:8)
+```
+
+解决方法：
+
+修改rollup配置文件中的babel配置
+
+rollup.config.js
+
+```javascript
+			babel({
+				exclude: 'node_modules/**',
+				runtimeHelpers: true,
+			}),
+```
+
+
+
+### 4. [!] (plugin uglify) Error: Unexpected token: punc «,»
