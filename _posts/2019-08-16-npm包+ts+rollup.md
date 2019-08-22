@@ -243,6 +243,8 @@ npm install --save-dev @babel/core @babel/plugin-transform-runtime @babel/preset
 npm install tslib --save-dev
 ```
 
+
+
 ### 2. (plugin commonjs) TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string
 
 报错内容：
@@ -272,16 +274,6 @@ SyntaxError: E:/mproject/oauth-login-package/node_modules/axios/package.json: Un
   3 |   "_id": "axios@0.19.0",
   4 |   "_inBundle": false,
   5 |   "_integrity": "sha1-jgm/89kSLhM/e4EByPvdAO09Krg=",
-    at Parser.pp$5.raise (E:\mproject\oauth-login-package\node_modules\babylon\lib\index.js:4454:13)
-    at Parser.pp.unexpected (E:\mproject\oauth-login-package\node_modules\babylon\lib\index.js:1761:8)
-    at Parser.pp.semicolon (E:\mproject\oauth-login-package\node_modules\babylon\lib\index.js:1742:38)
-    at Parser.pp$1.parseExpressionStatement (E:\mproject\oauth-login-package\node_modules\babylon\lib\index.js:2236:8)
-    at Parser.pp$1.parseStatement (E:\mproject\oauth-login-package\node_modules\babylon\lib\index.js:1911:17)
-    at Parser.pp$1.parseBlockBody (E:\mproject\oauth-login-package\node_modules\babylon\lib\index.js:2268:21)
-    at Parser.pp$1.parseBlock (E:\mproject\oauth-login-package\node_modules\babylon\lib\index.js:2247:8)
-    at Parser.pp$1.parseStatement (E:\mproject\oauth-login-package\node_modules\babylon\lib\index.js:1868:19)
-    at Parser.pp$1.parseBlockBody (E:\mproject\oauth-login-package\node_modules\babylon\lib\index.js:2268:21)
-    at Parser.pp$1.parseTopLevel (E:\mproject\oauth-login-package\node_modules\babylon\lib\index.js:1778:8)
 ```
 
 解决方法：
@@ -300,3 +292,89 @@ rollup.config.js
 
 
 ### 4. [!] (plugin uglify) Error: Unexpected token: punc «,»
+
+报错内容：
+
+```bash
+[!] (plugin uglify) Error: Unexpected token: punc «,»
+SyntaxError: Unexpected token: punc «,»
+```
+
+解决方法：
+
+这个错误定位后发现与rollup-plugin-uglify插件有关，rollup-plugin-uglify不能压缩es6的代码文件。rollup-plugin-uglify的[官方文档](https://github.com/TrySound/rollup-plugin-uglify)是说
+
+> Note: uglify-js is able to transpile only es5 syntax. If you want to transpile es6+ syntax use terser instead
+>
+
+顺着这个思路有两种解决方法，一只要把es6的代码用babel转换成es5即可。二使用[rollup-plugin-terser](https://github.com/TrySound/rollup-plugin-terser)插件代替rollup-plugin-uglify
+
+安装rollup-plugin-terser
+
+```bash
+yarn add rollup-plugin-terser --dev
+```
+
+使用rollup-plugin-terser
+
+```javascript
+import { rollup } from "rollup";
+import { terser } from "rollup-plugin-terser";
+
+rollup({
+  input: "main.js",
+  plugins: [terser()]
+});
+```
+
+
+
+### 5.preferring built-in module 'http' over local alternative at 'http', pass 'preferBuiltins: false' to disable this behavior or 'preferBuiltins: true' to disable this warning
+
+报错内容：
+
+```bash
+(!) Plugin node-resolve: preferring built-in module 'http' over local alternative at 'http', pass 'preferBuiltins: false' to disable this behavior or 'preferBuiltins: true' to disable this warning
+(!) Plugin node-resolve: preferring built-in module 'https' over local alternative at 'https', pass 'preferBuiltins: false' to disable this behavior or 'preferBuiltins: true' to disable this warning
+(!) Plugin node-resolve: preferring built-in module 'zlib' over local alternative at 'zlib', pass 'preferBuiltins: false' to disable this behavior or 'preferBuiltins: true' to disable this warning
+```
+
+解决方法：
+
+设置rollup.config.js
+
+```javascript
+plugins: [
+    ...
+    resolve({
+        preferBuiltins: true, //这一句是重点
+		mainFields: ['browser']
+    }),
+    ...
+],
+```
+
+或者可以这么做
+
+```javascript
+export default {
+    ...
+    external: ['http', 'https', 'zlib'],
+    ...
+}
+```
+
+
+
+### 6.(!) Circular dependency
+
+报错内容：
+
+```bash
+(!) Circular dependency: node_modules\rollup-plugin-node-builtins\src\es6\readable-stream\duplex.js -> node_modules\rollup-plugin-node-builtins\src\es6\readable-stream\readable.js -> node_modules\rollup-plugin-node-builtins\src\es6\readable-stream\duplex.js
+```
+
+解决方法：
+
+参考https://github.com/rollup/rollup/issues/1089
+
