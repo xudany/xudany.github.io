@@ -132,8 +132,81 @@ import { Route, Switch } from "react-router-dom";
   <Route exact path="/" component={Home} />
   <Route path="/about" component={About} />
   <Route path="/contact" component={Contact} />
-  {/* when none of the above match, <NoMatch> will be rendered */}
+  {/* 当以上匹配项都不匹配时，将呈现<NoMatch> */}
   <Route component={NoMatch} />
 </Switch>
+```
+
+
+
+【注意】一般根路由，父路由在匹配的时候都需要在`<Route>`加上exact属性，因为当`<Route>`添加exact属性后只有URL和该`<Route>`的path属性进行精确比对后完全相同该`<Route>`才会被渲染
+
+详细原因参考：[react-router v4 之 啥是 `<Switch>`](https://www.jianshu.com/p/ed5e56994f13)
+
+
+
+## Route Rendering Props(路由渲染属性)
+
+
+
+对于如何渲染给定`<Route>`的组件，有三种方法可以选择：`component`、`render`、`children`。下面介绍两个常用的`component`和`render `。
+
+`component`属性应该在有现有组件时使用(可以是React或者无状态的功能组件)。要呈现的组件或无状态功能组件。`render`属性接受内联函数，仅当必须将范围内变量传递给要渲染的组件时才应使用。您不应该使用带有内联函数的`component`的`props`属性来传递范围内变量，不然组件会 unmounts或者remounts。
+
+
+
+```jsx
+const Home = () => <div>Home</div>;
+
+const App = () => {
+  const someVariable = true;
+
+  return (
+    <Switch>
+      {/* 可以这样使用 */}
+      <Route exact path="/" component={Home} />
+      <Route
+        path="/about"
+        render={props => <About {...props} extra={someVariable} />}
+      />
+      {/* 不能这样使用 */}
+      <Route
+        path="/contact"
+        component={props => <Contact {...props} extra={someVariable} />}
+      />
+    </Switch>
+  );
+};
+```
+
+
+
+更多信息可看：
+
+ [Route文档](https://reacttraining.com/react-router/web/api/Route)
+
+
+
+## Navigation(导航)
+
+React Router提供一个`<Link>`组件来在应用中创建链接。无论在何处使用<Link>，都会在应用的HTML中渲染一个`<a>`标签。
+
+`<NavLink>`是一种特殊类型的`<Link>`，当它的`to`的属性匹配当前位置时，可以将自己设置为“active”。
+
+任何时候您想强制重定向导航，都可以使用`<Redirect>`。当`<Redirect>`渲染时，它将重定向导航到`to`这个属性定义的路由。
+
+
+
+```jsx
+<Link to="/">Home</Link>
+// <a href='/'>Home</a>
+
+// location = { pathname: '/react' }
+<NavLink to="/react" activeClassName="hurray">
+  React
+</NavLink>
+// <a href='/react' className='hurray'>React</a>
+
+<Redirect to="/login" />
 ```
 
