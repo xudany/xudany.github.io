@@ -2,9 +2,9 @@
 title: AntUI集成进react+ts
 date: 2019-05-26
 categories:
-- AntUI
-tags:
 - react
+tags:
+- AntUI
 - ts
 - Learning
 ---

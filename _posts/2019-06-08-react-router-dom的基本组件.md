@@ -2,9 +2,9 @@
 title: react-router-dom的基本组件
 date: 2019-06-08
 categories:
-- react-router-dom
-tags:
 - react
+tags:
+- react-router-dom
 - Learing
 ---
 
