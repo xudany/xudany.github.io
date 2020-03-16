@@ -57,3 +57,5 @@ command+文件名     点击可以直接跳转到该文件
 command+shift+→或command+shift+← 选中某行
 
 alt+shift+→或alt+shift+← 选中某项
+
+optition+command+L      代码格式化
