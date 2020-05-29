@@ -162,7 +162,7 @@ You may need an appropriate loader to handle this file type, currently no loader
 ...
 ```
 
- 看了错误，感觉是css不支持，所以修改一下配置文件next.config.js
+ 看了错误，css不支持啊，修改一下配置文件next.config.js
 
 ```bash
 // next.config.js
