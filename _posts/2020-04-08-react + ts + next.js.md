@@ -2,11 +2,11 @@
 title: react + ts + next.js
 date: 2020-04-08
 categories:
-- react
+- next.js
 tags:
+- next.js
 - react
 - ts
-- next.js
 ---
 
 
