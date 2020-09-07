@@ -185,7 +185,20 @@ try {
       />
 ```
 
-啊_(:з」∠)_，好麻烦啊，这样一步步加功能和代码，算了算，直接贴最终的代码吧哈哈哈哈哈哈（是的，我懒了）,总之解决了各种奇奇怪骨气的坑，还有中间实在没思路就去看SQL插件的源码，看看人家怎么写的，改一改啊哈哈哈哈哈~
+`sql-hint`有提供自带的可提示的表名和字段，通过在 `hintOptions` 属性中配置  `tables` 对象，格式如下：
+
+```js
+hintOptions: {
+   tables: {
+   "t_test_login": [ "col_a", "col_B", "col_C" ],
+   "t_test_employee": [ "other_columns1", "other_columns2" ]
+}
+
+```
+
+配置完成后就会有类似 “t_test_login.col_a” 的提示，但是我们的数据需要的不是这么简单的提示，需要提示“catalog.schema.table"这样，所以......还是要自己写逻辑。
+
+啊_(:з」∠)_，好麻烦啊，这样一步步加功能和代码，算了算，直接贴最终的代码吧哈哈哈哈哈哈（是的，我懒了）,总之解决了各种奇奇怪怪的坑，还有中间实在没思路就去看sql-hint的源码，看看人怎么写的，改一改啊哈哈哈哈哈~
 
 最终代码调整： 
 
@@ -198,12 +211,13 @@ try {
     const cur = editor.getCursor();
     // 获取当前行数据
     const curLine = editor.getLine(cur.line);
-
+    // 断词
     const sentence = curLine.slice(0, cur.ch).split(' ');
 
     // 获取当前光标之前的字段
     const upperSen = _.toUpper(sentence[sentence.length - 2]);
 
+    // 表名提示
     if (changeObj.origin !== 'paste' && (upperSen === 'FROM' || upperSen === 'JOIN')) {
       setState((pre) => {
         if (changeObj.origin === 'complete') {
