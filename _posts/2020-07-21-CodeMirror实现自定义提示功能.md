@@ -94,7 +94,8 @@ try {
 首先官网是有提供一个简单SQL的提示插件的，所以基础的SQL代码提示和邻近字段提示只要配置就可以了。
 
 ```tsx
-      <CodeMirror
+{% capture example_variable %}      
+<CodeMirror
         className="os-code-mirror"
         options={{
           // 编辑器模式
@@ -117,7 +118,8 @@ try {
           // 是否换行
           lineWrapping: true,
         }}
-      ></CodeMirror>
+  />
+{% endcapture %}
 ```
 
 所以上面这段代码已经能够满足按`Ctrl`键提示SQL代码和邻近字段的功能，但是需求是要自动提示，不需要按任何键，所以要改，要实现自定义提示的触发时间，方法 `execCommand('autocomplete')` 就是用来触发提示的，所以修改后的代码
