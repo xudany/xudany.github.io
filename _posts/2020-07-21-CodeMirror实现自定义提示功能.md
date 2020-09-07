@@ -142,7 +142,7 @@ try {
           if (changeObj.origin === '+input' && changeObj.text[0] !== ' ' && changeObj.text[0] !== ';') {
             editor.execCommand('autocomplete');
           }
-        }
+        }}
       />
 ```
 
@@ -152,21 +152,14 @@ try {
       <CodeMirror
         className="os-code-mirror"
         options={{
-          // 编辑器模式
           mode: { name: 'text/x-mysql' },
-          // 编辑器主题
           theme: 'neo',
-          // 编辑器的左侧显示行号
           lineNumbers: true,
-          // 占位符
           placeholder: '请输入sql语句',
-          // 自动关闭方括号和引号
           autoCloseBrackets: true,
           },
-          // 是否换行
           lineWrapping: true,
         }}
-        // 获取到选中部分内容，用来实现执行部分内容
         onCursorActivity={(cm) => {
           onCursor(cm);
         }}
