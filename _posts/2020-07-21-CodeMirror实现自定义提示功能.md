@@ -125,9 +125,10 @@ try {
 
 所以上面这段代码已经能够满足按`Ctrl`键提示SQL代码和邻近字段的功能，但是需求是要自动提示，不需要按任何键，所以要改，要实现自定义提示的触发时间，方法 `execCommand('autocomplete')` 就是用来触发提示的，所以修改后的代码
 
-```js
+```tsx
       <CodeMirror
         className="os-code-mirror"
+        {% raw %}
         options={{
           // 编辑器模式
           mode: { name: 'text/x-mysql' },
@@ -147,15 +148,16 @@ try {
           if (changeObj.origin === '+input' && changeObj.text[0] !== ' ' && changeObj.text[0] !== ';') {
             editor.execCommand('autocomplete');
           }
-        }}
+        }}{% endraw %}
       />
 ```
 
 然后就加上获取到选中部分内容，用来实现执行部分内容
 
-```js
+```tsx
       <CodeMirror
         className="os-code-mirror"
+        {% raw %}
         options={{
           // 编辑器模式
           mode: { name: 'text/x-mysql' },
@@ -179,7 +181,7 @@ try {
           if (changeObj.origin === '+input' && changeObj.text[0] !== ' ' && changeObj.text[0] !== ';') {
             editor.execCommand('autocomplete');
           }
-        }}
+        }}{% endraw %}
       />
 ```
 
@@ -187,7 +189,7 @@ try {
 
 最终代码调整： 
 
-```js
+```ts
   let preContent: any;
 
   // 是否触发搜索条件
@@ -273,9 +275,10 @@ try {
 
 ---
 
-```js
+```tsx
       <CodeMirror
         className="os-code-mirror"
+        {% raw %}
         options={{
           // 编辑器模式
           mode: { name: 'text/x-mysql' },
@@ -337,7 +340,7 @@ try {
         // 赋予实例（由于 next.js 的特殊性所以需要等待编辑器渲染完之后才可以）
         editorDidMount={() => {
           instance = require('codemirror');
-        }}
+        }}{% endraw %}
       />
 ```
 
