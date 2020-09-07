@@ -70,9 +70,7 @@ import 'codemirror/lib/codemirror.css';
 import 'codemirror/theme/neo.css';
 import 'codemirror/addon/hint/show-hint.css';
 import dynamic from 'next/dynamic';
-const CodeMirror = dynamic(() => import('react-codemirror2').then((mod) => mod.UnControlled), {
-  ssr: false,
-});
+const CodeMirror = dynamic(() => import('react-codemirror2').then((mod) => mod.UnControlled), {ssr: false});
 
 // next.js的特殊引入方式
 try {
