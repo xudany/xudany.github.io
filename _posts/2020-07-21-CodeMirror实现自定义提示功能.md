@@ -123,7 +123,7 @@ try {
 ```tsx
       <CodeMirror
         className="os-code-mirror"
-        options={{
+        options={
           // 编辑器模式
           mode: { name: 'text/x-mysql' },
           // 编辑器主题
@@ -137,12 +137,13 @@ try {
           },
           // 是否换行
           lineWrapping: true,
-        }}
+        }
         onChange={(editor, changeObj, value) => {
           if (changeObj.origin === '+input' && changeObj.text[0] !== ' ' && changeObj.text[0] !== ';') {
             editor.execCommand('autocomplete');
           }
-        }}></CodeMirror>
+        }
+      />
 ```
 
 然后就加上获取到选中部分内容，用来实现执行部分内容
