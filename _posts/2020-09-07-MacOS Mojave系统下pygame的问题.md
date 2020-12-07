@@ -1,6 +1,4 @@
 ---
-
-
 title: MacOS Mojave系统下pygame的问题
 date: 2020-09-07
 categories:
