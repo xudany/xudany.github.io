@@ -1,5 +1,5 @@
 ---
-title: 解决 Warning Text content did not match Server: "" Client: ""
+title: 解决 Warning Text content did not match Server "" Client ""
 date: 2021-10-12
 categories:
 - next.js
