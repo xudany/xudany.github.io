@@ -12,10 +12,16 @@ tags:
 ---
 
 
+### Warning Text content did not match Server "" Client "" 
+
+
+随手记录一下问题
 
 在 Next.js 应用程序中使用了localStorage和react hook，在数据更新后重新刷新页面，就报错了：
 
-> Warning: Text content did not match. Server: "2" Client: "3"
+```bash
+Warning: Text content did not match. Server: "2" Client: "3"
+```
 
 然后我的数据样式就有些异常了。
 
@@ -38,7 +44,7 @@ tags:
 
 参考资料：
 
-[Next.js persistent state with React hooks and localStorage](https://stackoverflow.com/questions/59885433/next-js-persistent-state-with-react-hooks-and-localstorage
+[Next.js persistent state with React hooks and localStorage](https://stackoverflow.com/questions/59885433/next-js-persistent-state-with-react-hooks-and-localstorage)
 
 [Next js how to fetch localStorage data before client side rendering](https://stackoverflow.com/questions/68424114/next-js-how-to-fetch-localstorage-data-before-client-side-rendering))
 
