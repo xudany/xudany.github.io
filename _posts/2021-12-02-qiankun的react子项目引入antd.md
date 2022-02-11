@@ -14,7 +14,7 @@ tags:
 
 ## qiankun的react子项目引入antd
 
-这里默认已经引入了 `less` 的支持了，然后现在是配置 `antd` 的支持和一些全局变量的设置。关于引入 `less` 的支持可以看这里 [qiankun的react子项目引入less支持]()
+这里默认已经引入了 `less` 的支持了，然后现在是配置 `antd` 的支持和一些全局变量的设置。关于引入 `less` 的支持可以看这里 [qiankun的react子项目引入less支持](https://xudany.github.io/%E5%BE%AE%E5%89%8D%E7%AB%AF/2021/12/01/qiankun%E7%9A%84react%E5%AD%90%E9%A1%B9%E7%9B%AE%E5%BC%95%E5%85%A5less%E6%94%AF%E6%8C%81/)
 
 ### 安装
 
