@@ -31,9 +31,9 @@ yarn add customize-cra -D
 
 ### 修改配置文件
 
-修改配置文件 `config-overrides.js` ，下面是完整的配置文件，包括 `less` 的配置。
+修改配置文件 `config-overrides.js` ，是用在 `webpack.config.js` 使用 [less-loader](https://github.com/webpack-contrib/less-loader) 按需引入，下面是完整的配置文件，包括 `less` 的配置。
 
-可以在 `modifyVars` 中对一些 antd 的样式变量进行设置。比如 `@ant-prefix`是用来配置antd 样式的前缀，最为子项目防止样式污染。
+可以在 `modifyVars` 中对一些 antd 的样式变量进行设置。
 
 ```js
 const { name } = require('./package.json');
@@ -64,6 +64,7 @@ module.exports = {
     addLessLoader({
       lessOptions: {
         javascriptEnabled: true,
+        /** 增加代码 **/
         modifyVars: {
           'primary-color': '#304FFE',
           'success-color': '#00C853',
@@ -71,6 +72,7 @@ module.exports = {
           'error-color': '#F44336',
           '@ant-prefix': 'os-monitoring-platform',
         },
+        /** 增加代码 **/
       },
     }),
   ),
@@ -103,7 +105,37 @@ module.exports = {
 
 
 
-**注意**
+### antd样式前缀的设置
+
+添加样式前缀是为了防止子项目样式全局污染，用 `@ant-prefix`是用来配置antd 样式的前缀，具体可以看下面的例子
+
+App.tsx
+
+```tsx
+   <ConfigProvider prefixCls="custom_ant">
+      <div className="App">
+        <Button type="primary">CLICK ME</Button>
+      </div>
+    </ConfigProvider>
+```
+
+config-overrides.js
+
+```js
+    addLessLoader({
+      lessOptions: {
+        javascriptEnabled: true,
+        modifyVars: {
+          //添加
+          '@ant-prefix': 'custom_ant',
+        },
+      },
+    }),
+```
+
+
+
+### **注意**
 
 如果上述改完之后不生效，看看是不是使用了 **[rescripts](https://github.com/harrysolovay/rescripts)** ，如果是的话，把 package.json 中的 `rescripts` 改为 `react-app-rewired`就可以了。
 
@@ -149,4 +181,12 @@ package.json
 
 [next.js + qiankun 项目实践](https://xudany.github.io/%E5%BE%AE%E5%89%8D%E7%AB%AF/2021/10/19/next.js-+-qiankun-%E9%A1%B9%E7%9B%AE%E5%AE%9E%E8%B7%B5/)
 
-[qiankun的react子项目引入less支持]()
+[qiankun的react子项目引入less支持](https://xudany.github.io/%E5%BE%AE%E5%89%8D%E7%AB%AF/2021/12/01/qiankun%E7%9A%84react%E5%AD%90%E9%A1%B9%E7%9B%AE%E5%BC%95%E5%85%A5less%E6%94%AF%E6%8C%81/)
+
+
+
+### 参考链接
+
+[setting prefixCls using ConfigProvider breaks styling ](https://github.com/ant-design/ant-design/issues/27245)
+
+[antd定制主题](https://ant.design/docs/react/customize-theme-cn)
