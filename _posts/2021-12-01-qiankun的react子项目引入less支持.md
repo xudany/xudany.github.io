@@ -91,7 +91,7 @@ module.exports = {
 
 
 
-**注意**
+### **注意**
 
 如果上述改完之后不生效，看看是不是使用了 **[rescripts](https://github.com/harrysolovay/rescripts)** ，如果是的话，把 package.json 中的 `rescripts` 改为 `react-app-rewired`就可以了。
 
@@ -137,7 +137,7 @@ package.json
 
 [next.js + qiankun 项目实践](https://xudany.github.io/%E5%BE%AE%E5%89%8D%E7%AB%AF/2021/10/19/next.js-+-qiankun-%E9%A1%B9%E7%9B%AE%E5%AE%9E%E8%B7%B5/)
 
-[qiankun的react子项目引入antd]()
+[qiankun的react子项目引入antd](https://xudany.github.io/%E5%BE%AE%E5%89%8D%E7%AB%AF/2021/12/02/qiankun%E7%9A%84react%E5%AD%90%E9%A1%B9%E7%9B%AE%E5%BC%95%E5%85%A5antd/)
 
 
 
