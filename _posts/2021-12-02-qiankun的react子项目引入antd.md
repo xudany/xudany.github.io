@@ -135,6 +135,53 @@ config-overrides.js
 
 
 
+### 解决ConfigProvider的prefixCls属性对Message组件不生效的问题
+
+首先antd的版本至少得升级到`4.13.0+`以上，然后设 `Modal`、`Message`、`Notification` rootPrefixCls。如果要设置icon的前缀则需要升级到`4.17.0+`以上。
+
+```js
+ConfigProvider.config({
+  prefixCls: 'ant', // 4.13.0+
+  iconPrefixCls: 'anticon', // 4.17.0+
+});
+```
+
+具体如下：
+
+App.tsx
+
+```tsx
+import React, { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
+import { ConfigProvider } from 'antd';
+import zhCN from 'antd/lib/locale/zh_CN';
+import routes from './router/routerConfig';
+import renderRouter from './router/renderRouter';
+
+function App() {
+  const location = useLocation();
+  // 增加代码
+  useEffect(() => {
+    ConfigProvider.config({
+      prefixCls: 'os-monitoring-platform',
+    });
+  }, []);
+  // 增加代码
+  return (
+    <ConfigProvider locale={zhCN} prefixCls="os-monitoring-platform">
+      <div className="App">{renderRouter(routes, { location })}</div>
+    </ConfigProvider>
+  );
+}
+
+export default App;
+
+```
+
+
+
+
+
 ### **注意**
 
 如果上述改完之后不生效，看看是不是使用了 **[rescripts](https://github.com/harrysolovay/rescripts)** ，如果是的话，把 package.json 中的 `rescripts` 改为 `react-app-rewired`就可以了。
@@ -190,3 +237,5 @@ package.json
 [setting prefixCls using ConfigProvider breaks styling ](https://github.com/ant-design/ant-design/issues/27245)
 
 [antd定制主题](https://ant.design/docs/react/customize-theme-cn)
+
+[静态方法如何设置 prefixCls](https://ant.design/components/config-provider-cn/#ConfigProvider.config()-4.13.0+)
